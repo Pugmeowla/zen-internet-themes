@@ -64,3 +64,9 @@ li.MHxtic a.nUg0Te { min-height: 72px !important; }
 li.MHxtic .mh4Cme { display: none !important; }
 /* Column titles no longer collapse anything, so no hand cursor */
 .ovsVve.jlxRme > div:first-child { pointer-events: none !important; cursor: default !important; }
+/* Grid: same 12px gap across and down, every row the same height so the columns line up */
+.Z3qXvc .pEwOBc { column-gap: 12px !important; row-gap: 12px !important; }
+.ovsVve.jlxRme ol { gap: 12px !important; }
+li.MHxtic, li.MHxtic a.nUg0Te { height: 100px !important; min-height: 100px !important; max-height: 100px !important; overflow: hidden !important; }
+li.MHxtic .y9bEQb p.VjRxGc { -webkit-line-clamp: 1 !important; white-space: nowrap !important; text-overflow: ellipsis !important; display: block !important; }
+li.MHxtic .il4hc > .gmNu1d > :not(.y9bEQb) { display: -webkit-box !important; -webkit-line-clamp: 2 !important; -webkit-box-orient: vertical !important; overflow: hidden !important; }
