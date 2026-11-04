@@ -7,13 +7,13 @@ nav.STek2d a.uTwgne, li.gHz6xd, li.MHxtic {
 }
 /* Rail: tinted circle with the label inside */
 nav.STek2d a.uTwgne .JShLh {
-  width: 40px !important; height: 40px !important;
+  width: 32px !important; height: 32px !important;
   display: flex !important; align-items: center !important; justify-content: center !important;
   font-size: 0 !important; line-height: 1 !important;
   background: color-mix(in srgb, var(--subj, #d1d1d6) 70%, var(--zi-bg)) !important;
   border-radius: 50% !important;
 }
-nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 11px; font-weight: 700; color: var(--ink); }
+nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 10px; font-weight: 700; color: var(--ink); }
 /* Home tiles */
 li.gHz6xd { background: var(--paint) !important; border: none !important; box-shadow: none !important; backdrop-filter: none !important; }
 li.gHz6xd .Tc9hUd .O7utsb, li.gHz6xd .Tc9hUd .ZizeYd, li.gHz6xd .Tc9hUd .OjOEXb { display: none !important; }
