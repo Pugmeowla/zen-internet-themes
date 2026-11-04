@@ -33,3 +33,7 @@ li.gHz6xd .R4EiSb h2 .FWGURc { margin-top: 4px !important; font-size: 13px !impo
 li.gHz6xd .R4EiSb > div.gmNu1d { margin-top: 2px !important; font-size: 12px !important; }
 li.gHz6xd .joT7of { padding: 12px 20px 8px !important; }
 li.gHz6xd .joT7of .TQYOZc, li.gHz6xd .joT7of .TQYOZc * { margin: 0 !important; padding: 0 !important; font-size: 13px !important; }
+/* Line the tiles up with the rail: same 24px gap from the Home button as Home has from the window edge, and level with its top */
+main.T9UoTd { padding: 0 16px 24px !important; }
+/* Empty 8px strip + 24px margin above the tiles; replace with the rail's 16px top gap */
+main.T9UoTd > .MLPUnb { height: 0 !important; margin: 0 0 8px !important; }

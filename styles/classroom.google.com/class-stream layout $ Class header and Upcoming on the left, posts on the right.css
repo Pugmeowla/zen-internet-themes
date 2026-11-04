@@ -70,3 +70,11 @@ main.Sgw65b section .qhnNic .QUEiXc span.VjRxGc { font-size: 15.5px !important; 
 main.Sgw65b section .qhnNic .JZk9qf { font-size: 13px !important; color: #6e6e73 !important; }
 main.Sgw65b section .qhnNic .LBx0ze { display: none !important; }
 main.Sgw65b section .qhnNic .GQW44b, main.Sgw65b section .qhnNic .QUEiXc, main.Sgw65b section .qhnNic .QUEiXc > div { width: auto !important; max-width: none !important; }
+/* Posts: avatar/icon, body text and "Add comment" share one 24px left edge; name sits 14px after the avatar */
+main.Sgw65b section .qhnNic .JZicYb { padding: 16px 24px !important; }
+main.Sgw65b section .qhnNic .JZicYb > img, main.Sgw65b section .qhnNic .JZicYb > .Cxyznd { margin: 0 !important; width: 44px !important; height: 44px !important; min-width: 44px !important; }
+main.Sgw65b section .qhnNic .JZicYb > img { border-radius: 50% !important; }
+main.Sgw65b section .qhnNic .n8F6Jd { padding: 0 24px 16px !important; }
+main.Sgw65b section .qhnNic .n8F6Jd, main.Sgw65b section .qhnNic .n8F6Jd * { font-size: 14.5px !important; line-height: 1.5 !important; color: #3a3a3c !important; }
+main.Sgw65b section .qhnNic .s2g3Xd { border-top: 1px solid #0000000f !important; }
+main.Sgw65b section .qhnNic .s2g3Xd button { margin: 8px 0 8px 8px !important; }
