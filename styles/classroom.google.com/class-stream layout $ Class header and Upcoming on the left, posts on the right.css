@@ -124,3 +124,8 @@ main.Sgw65b section > div {
 main.Sgw65b section > div > :empty { display: none !important; }
 main.Sgw65b section > div > * { margin: 0 !important; min-width: 0 !important; }
 main.Sgw65b section > div > .qhnNic { height: 100% !important; box-sizing: border-box !important; }
+/* Announcements (posts with body text) take two rows, so two short material/assignment posts stack beside one.
+   dense fills the holes. shortcut: a very long announcement still leaves a gap, and dense can move a short post up one slot */
+main.Sgw65b section > div { grid-auto-flow: row dense !important; align-items: start !important; }
+main.Sgw65b section > div > .qhnNic { height: auto !important; }
+main.Sgw65b section > div > .qhnNic:has(.n8F6Jd) { grid-row: span 2 !important; }
