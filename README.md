@@ -26,4 +26,4 @@ Local build: `python3 build.py`.
 
 ## Themes
 
-- **classroom.google.com**: transparent page, glass panels/cards/posts, blurred sidebar. Glass turns dark when Dark Reader is on.
+- **classroom.google.com**: light frosted glass, see-through page, icon-only sidebar that expands on hover, compact class cards with hover buttons, hidden help button and logo text.

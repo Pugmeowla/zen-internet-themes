@@ -1,0 +1,23 @@
+li.gHz6xd {
+  height: auto !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+li.gHz6xd:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 16px 40px #00000033 !important;
+}
+/* Shrink the empty middle area */
+li.gHz6xd .joT7of { height: auto !important; min-height: 44px !important; padding-bottom: 8px !important; }
+li.gHz6xd .joT7of img.PNzAWd { width: 48px !important; height: 48px !important; top: -24px !important; }
+/* Footer buttons fade in on hover */
+li.gHz6xd .SZ0kZe {
+  position: absolute !important;
+  right: 4px !important;
+  bottom: 2px !important;
+  border: none !important;
+  opacity: 0 !important;
+  transition: opacity 0.2s ease !important;
+}
+li.gHz6xd:hover .SZ0kZe { opacity: 1 !important; }

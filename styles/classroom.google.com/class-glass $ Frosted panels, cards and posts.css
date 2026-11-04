@@ -1,0 +1,10 @@
+/* Big panels, class cards, stream posts, "upcoming" box */
+.PM0jOb, li.gHz6xd, .d4Fe0d, .qhnNic {
+  background-color: #ffffff8c !important;
+  backdrop-filter: blur(18px) saturate(1.6) !important;
+  border: 1px solid #ffffff99 !important;
+  box-shadow: 0 8px 24px #0000001f !important;
+}
+.PM0jOb { border-radius: 24px !important; }
+.qhnNic, .d4Fe0d { border-radius: 16px !important; }
+.qhnNic:hover { background-color: #ffffffb3 !important; }

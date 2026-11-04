@@ -1,0 +1,12 @@
+/* Classroom's light theme reads these with hardcoded fallbacks; defining them makes surfaces see-through */
+:root {
+  --gm3-sys-color-background: transparent !important;
+  --gm3-sys-color-surface: transparent !important;
+  --gm3-sys-color-surface-dim: transparent !important;
+  --gm3-sys-color-surface-container-lowest: #ffffff40 !important;
+  --gm3-sys-color-surface-container-low: #ffffff55 !important;
+  --gm3-sys-color-surface-container: #ffffff66 !important;
+  --gm3-sys-color-surface-container-high: #ffffff80 !important;
+  --gm3-sys-color-surface-container-highest: #ffffff99 !important;
+  --gm3-sys-color-outline-variant: #0000001a !important;
+}

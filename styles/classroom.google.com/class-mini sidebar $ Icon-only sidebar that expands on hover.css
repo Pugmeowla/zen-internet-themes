@@ -1,0 +1,23 @@
+/* Spacer that reserves the sidebar width */
+.aBPWdf { flex-basis: 72px !important; width: 72px !important; }
+nav.STek2d {
+  width: 72px !important;
+  overflow: hidden !important;
+  z-index: 100 !important;
+  transition: width 0.25s ease, background-color 0.25s ease !important;
+}
+nav.STek2d .tCcYY { width: 300px !important; }
+nav.STek2d .Ij01W, nav.STek2d .ug8OTc > :not(.kWQ5wd) {
+  opacity: 0 !important;
+  transition: opacity 0.2s ease !important;
+}
+nav.STek2d:hover {
+  width: 300px !important;
+  background-color: #ffffffb3 !important;
+  backdrop-filter: blur(24px) !important;
+  border-radius: 0 24px 24px 0 !important;
+  box-shadow: 8px 0 32px #00000026 !important;
+}
+nav.STek2d:hover .Ij01W, nav.STek2d:hover .ug8OTc > * { opacity: 1 !important; }
+/* Selected item pill */
+.wQiG5d { background-color: #ffffffcc !important; }
