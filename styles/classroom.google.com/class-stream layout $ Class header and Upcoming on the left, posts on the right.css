@@ -29,7 +29,7 @@
 .qyN25 .PFLqgc {
   position: absolute !important; inset: 0 !important; width: auto !important; height: auto !important;
   background: color-mix(in srgb, var(--page-subj, #a5d5ff) 60%, #fbfbfd) !important;
-  border: 1px solid #ffffffb3 !important; border-radius: 18px !important; backdrop-filter: none !important;
+  border: none !important; border-radius: 18px !important; backdrop-filter: none !important;
 }
 .qyN25 .T4tcpe {
   position: relative !important; height: auto !important; width: auto !important;
@@ -43,7 +43,7 @@
 .dbEQNc:has(.qyN25) aside .iy4mWc { padding: 0 !important; margin: 0 !important; }
 .dbEQNc:has(.qyN25) aside .d4Fe0d {
   width: auto !important; margin: 0 !important; padding: 20px 22px !important; box-sizing: border-box !important;
-  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  background: #ffffffa6 !important; border: none !important; border-radius: 18px !important;
 }
 .dbEQNc:has(.qyN25) aside .d4Fe0d h2 {
   font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important;
@@ -53,11 +53,11 @@
 /* Composer bar and posts */
 main.Sgw65b .S1rfaf {
   height: auto !important; margin: 0 0 16px !important; padding: 14px 20px !important;
-  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  background: #ffffffa6 !important; border: none !important; border-radius: 18px !important;
 }
 main.Sgw65b section .qhnNic {
   margin: 0 0 16px !important; background: #ffffffa6 !important;
-  border: 1px solid #ffffffb3 !important; border-radius: 18px !important; box-shadow: 0 1px 2px #0000000a !important;
+  border: none !important; border-radius: 18px !important; box-shadow: 0 1px 2px #0000000a !important;
 }
 main.Sgw65b section .qhnNic .JZicYb { min-height: 72px !important; padding: 16px 20px !important; align-items: center !important; gap: 14px !important; }
 main.Sgw65b section .qhnNic .Cxyznd {
@@ -107,7 +107,7 @@ main.Sgw65b section .qhnNic { display: block !important; width: 100% !important;
 .dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf {
   display: flex !important; align-items: center !important; justify-content: space-between !important;
   padding: 12px 12px 12px 24px !important; min-height: 64px !important; box-sizing: border-box !important;
-  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  background: #ffffffa6 !important; border: none !important; border-radius: 18px !important;
 }
 .dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf::before { content: "Announce something to your class…"; font-size: 15px; color: #8e8e93; }
 .dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf > div, .dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf button { width: auto !important; }

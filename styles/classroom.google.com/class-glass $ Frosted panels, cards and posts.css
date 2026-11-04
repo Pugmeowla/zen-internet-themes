@@ -2,7 +2,7 @@
 .PM0jOb, li.gHz6xd, .d4Fe0d, .qhnNic {
   background-color: #ffffff8c !important;
   backdrop-filter: blur(28px) saturate(1.8) !important;
-  border: 1px solid #ffffffb3 !important;
+  border: none !important;
   box-shadow: 0 1px 2px #0000000d, 0 8px 24px #0000000f !important;
 }
 .PM0jOb { border-radius: 22px !important; }
@@ -14,7 +14,7 @@ li.gHz6xd, .qhnNic, .d4Fe0d { border-radius: 18px !important; }
   height: 140px !important;
   background: linear-gradient(135deg, #d6e6ffd9, #efe1ffd9) !important;
   backdrop-filter: blur(28px) !important;
-  border: 1px solid #ffffffb3 !important;
+  border: none !important;
   border-radius: 18px !important;
 }
 .qyN25 .T4tcpe, .qyN25 .VVnuU { background: none !important; }

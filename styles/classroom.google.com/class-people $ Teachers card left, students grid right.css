@@ -6,7 +6,7 @@ main.Z3qXvc:has(.DCIKCc) {
 }
 main.Z3qXvc:has(.DCIKCc) > .pEwOBc {
   display: block !important; width: auto !important; margin: 0 !important; padding: 20px 22px !important; box-sizing: border-box !important;
-  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  background: #ffffffa6 !important; border: none !important; border-radius: 18px !important;
 }
 main.Z3qXvc:has(.DCIKCc) > .pEwOBc.FvI3qc { background: color-mix(in srgb, var(--page-subj, #a5d5ff) 45%, #fbfbfd) !important; }
 /* Section titles: small caps, no underline */

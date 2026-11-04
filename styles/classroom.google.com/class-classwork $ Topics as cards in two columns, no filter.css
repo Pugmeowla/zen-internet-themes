@@ -7,7 +7,7 @@
 .FpfvHe .jHgkif {
   break-inside: avoid !important; display: block !important; width: 100% !important;
   margin: 0 0 16px !important; padding: 8px 16px 12px !important; box-sizing: border-box !important;
-  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  background: #ffffffa6 !important; border: none !important; border-radius: 18px !important;
   box-shadow: 0 1px 2px #0000000a !important;
 }
 /* Topic title with a coloured dot; no collapse arrow or menu */
