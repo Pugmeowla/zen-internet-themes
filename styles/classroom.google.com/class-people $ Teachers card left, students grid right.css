@@ -16,7 +16,7 @@ main.Z3qXvc:has(.DCIKCc) h2.vbUiDd, main.Z3qXvc:has(.DCIKCc) .n0c6Ke {
   font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important;
   color: #6e6e73 !important; margin: 0 !important; line-height: 20px !important; height: auto !important;
 }
-main.Z3qXvc:has(.DCIKCc) .n0c6Ke::before { content: "· "; }
+main.Z3qXvc:has(.DCIKCc) .anlSm h2.vbUiDd::after { content: " ·"; }
 main.Z3qXvc:has(.DCIKCc) .Nmpzvc { display: none !important; }
 /* Teacher rows */
 main.Z3qXvc:has(.DCIKCc) ul.Oo2pXc { display: block !important; margin: 0 !important; padding: 0 !important; }
@@ -27,7 +27,6 @@ main.Z3qXvc:has(.DCIKCc) .sCv5Q { font-size: 15.5px !important; font-weight: 600
 /* Students grid */
 main.Z3qXvc:has(.DCIKCc) .DCIKCc { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important; column-gap: 24px !important; row-gap: 4px !important; }
 main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd { border: none !important; box-shadow: none !important; min-height: 56px !important; height: auto !important; border-radius: 12px !important; }
-main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd:hover { background: #ffffff99 !important; }
 main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync { width: auto !important; flex: 1 !important; height: 56px !important; padding: 0 8px !important; border: none !important; align-items: center !important; }
 main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd > .x4MqDb, main.Z3qXvc:has(.DCIKCc) .Y5vSD.NJXpUd { display: none !important; }
 main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync, main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync * { font-size: 15px !important; color: #1d1d1f !important; }
@@ -39,4 +38,7 @@ main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync .x4MqDb, main.Z3qXvc:has(.DCIKCc) .DCIK
 }
 main.Z3qXvc:has(.DCIKCc) .DCIKCc .y4ihN { overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; }
 /* "18 students" -> "18". shortcut: clips to 2 digits, widen to 3ch if a class ever has 100+ students */
-main.Z3qXvc:has(.DCIKCc) .n0c6Ke { font-variant-numeric: tabular-nums !important; letter-spacing: 0 !important; white-space: nowrap !important; overflow: hidden !important; max-width: calc(2ch + 1.2em) !important; }
+main.Z3qXvc:has(.DCIKCc) .n0c6Ke { font-variant-numeric: tabular-nums !important; letter-spacing: 0 !important; white-space: nowrap !important; overflow: hidden !important; max-width: 2ch !important; padding: 0 !important; margin: 0 0 0 0.4em !important; flex: none !important; }
+/* Rows are plain names: not clickable, no hover, name block sits inside its row */
+main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd, main.Z3qXvc:has(.DCIKCc) li.ycbm1d { pointer-events: none !important; cursor: default !important; background: none !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync { margin: 0 !important; gap: 14px !important; }
