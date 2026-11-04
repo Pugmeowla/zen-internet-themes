@@ -1,0 +1,40 @@
+/* People: teachers in a card on the left, classmates in a 3-column grid on the right.
+   No row lines, no menus, no message buttons. */
+main.Z3qXvc:has(.DCIKCc) {
+  display: grid !important; grid-template-columns: 300px minmax(0, 1fr) !important; gap: 24px !important;
+  align-items: start !important; max-width: 1240px !important; margin: 0 auto !important; padding: 16px 24px 32px !important; box-sizing: border-box !important;
+}
+main.Z3qXvc:has(.DCIKCc) > .pEwOBc {
+  display: block !important; width: auto !important; margin: 0 !important; padding: 20px 22px !important; box-sizing: border-box !important;
+  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+}
+main.Z3qXvc:has(.DCIKCc) > .pEwOBc.FvI3qc { background: color-mix(in srgb, var(--page-subj, #a5d5ff) 45%, #fbfbfd) !important; }
+/* Section titles: small caps, no underline */
+main.Z3qXvc:has(.DCIKCc) .Era2ub, main.Z3qXvc:has(.DCIKCc) .MwhM8b { height: auto !important; min-height: 0 !important; padding: 0 0 12px !important; border: none !important; }
+main.Z3qXvc:has(.DCIKCc) .anlSm { align-items: center !important; gap: 8px !important; }
+main.Z3qXvc:has(.DCIKCc) h2.vbUiDd, main.Z3qXvc:has(.DCIKCc) .n0c6Ke {
+  font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important;
+  color: #6e6e73 !important; margin: 0 !important; line-height: 20px !important; height: auto !important;
+}
+main.Z3qXvc:has(.DCIKCc) .n0c6Ke::before { content: "· "; }
+main.Z3qXvc:has(.DCIKCc) .Nmpzvc { display: none !important; }
+/* Teacher rows */
+main.Z3qXvc:has(.DCIKCc) ul.Oo2pXc { display: block !important; margin: 0 !important; padding: 0 !important; }
+main.Z3qXvc:has(.DCIKCc) li.ycbm1d { border: none !important; min-height: 52px !important; }
+main.Z3qXvc:has(.DCIKCc) li.ycbm1d .d64Ge { display: none !important; }
+main.Z3qXvc:has(.DCIKCc) .QkOyOd { width: auto !important; flex: 1 !important; padding: 0 !important; border: none !important; }
+main.Z3qXvc:has(.DCIKCc) .sCv5Q { font-size: 15.5px !important; font-weight: 600 !important; color: #1d1d1f !important; }
+/* Students grid */
+main.Z3qXvc:has(.DCIKCc) .DCIKCc { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important; column-gap: 24px !important; row-gap: 4px !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd { border: none !important; box-shadow: none !important; min-height: 56px !important; height: auto !important; border-radius: 12px !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd:hover { background: #ffffff99 !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync { width: auto !important; flex: 1 !important; height: 56px !important; padding: 0 8px !important; border: none !important; align-items: center !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc > .d6CWTd > .x4MqDb, main.Z3qXvc:has(.DCIKCc) .Y5vSD.NJXpUd { display: none !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync, main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync * { font-size: 15px !important; color: #1d1d1f !important; }
+/* Dividers inside the lists */
+main.Z3qXvc:has(.DCIKCc) li.ycbm1d::before, main.Z3qXvc:has(.DCIKCc) li.ycbm1d::after,
+main.Z3qXvc:has(.DCIKCc) .d6CWTd::before, main.Z3qXvc:has(.DCIKCc) .d6CWTd::after { display: none !important; }
+main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync .x4MqDb, main.Z3qXvc:has(.DCIKCc) .DCIKCc .Jl8Ync .x4MqDb * {
+  width: auto !important; max-width: none !important; flex: 1 1 auto !important; min-width: 0 !important;
+}
+main.Z3qXvc:has(.DCIKCc) .DCIKCc .y4ihN { overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; }

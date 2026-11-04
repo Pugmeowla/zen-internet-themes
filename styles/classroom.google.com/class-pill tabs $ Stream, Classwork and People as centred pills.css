@@ -31,3 +31,9 @@
 .KEDCCd .WQqwid { position: absolute !important; left: 50% !important; transform: translateX(-50%) !important; margin: 0 !important; }
 .KEDCCd .YJHsie { margin-left: auto !important; }
 .gb7Jge { box-sizing: border-box !important; gap: 0 !important; }
+/* Tab bar: 64px tall, pill and right-hand icons centred vertically */
+.J6rR1b.Gi16if { height: 64px !important; }
+.KEDCCd { height: 64px !important; align-items: center !important; }
+.KEDCCd .WQqwid { top: 50% !important; transform: translate(-50%, -50%) !important; height: auto !important; }
+.gb7Jge { margin: 0 !important; }
+.KEDCCd .YJHsie { height: 64px !important; align-items: center !important; }

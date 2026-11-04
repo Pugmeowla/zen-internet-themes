@@ -27,7 +27,7 @@
 }
 .qyN25 .T4tcpe h1, .qyN25 .T4tcpe h1 * { margin: 0 !important; font-size: 28px !important; font-weight: 700 !important; letter-spacing: -0.02em !important; line-height: 1.15 !important; white-space: normal !important; color: #1d1d1f !important; }
 .qyN25 .T4tcpe .Ea4RVb, .qyN25 .T4tcpe .Ea4RVb * { margin: 0 !important; font-size: 15px !important; color: #6e6e73 !important; }
-.qyN25 .VKARh, .qyN25 .jBrZ6e { top: 14px !important; right: 14px !important; bottom: auto !important; left: auto !important; }
+.qyN25 .VKARh, .qyN25 .jBrZ6e { display: none !important; }
 
 /* Left-column cards: white glass, small-caps titles */
 .dbEQNc:has(.qyN25) aside .iy4mWc { padding: 0 !important; margin: 0 !important; }
