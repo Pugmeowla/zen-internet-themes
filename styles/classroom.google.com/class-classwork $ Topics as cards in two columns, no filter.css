@@ -13,7 +13,6 @@
 /* Topic title with a coloured dot; no collapse arrow or menu */
 .jHgkif .KmLLod > div { height: 56px !important; padding: 0 8px !important; border: none !important; }
 .jHgkif .KmLLod h2 { display: flex !important; align-items: center !important; gap: 10px !important; font-size: 18px !important; font-weight: 600 !important; color: #1d1d1f !important; }
-.jHgkif .KmLLod h2::before { content: ""; width: 8px; height: 8px; border-radius: 50%; flex: none; background: color-mix(in srgb, var(--page-subj, #0a84ff) 45%, #1d1d1f); }
 .jHgkif .VDOfwc { display: none !important; }
 .jHgkif .zq2w8b { grid-template-rows: 1fr !important; }
 .jHgkif .zq2w8b > *, .jHgkif .DzHQo { overflow: hidden !important; visibility: visible !important; min-width: 0 !important; }
@@ -35,3 +34,5 @@
 .jHgkif li.tfGBod .xVnXCf > :last-child, .jHgkif li.tfGBod .xVnXCf > :last-child * { font-size: 12.5px !important; color: #6e6e73 !important; }
 .jHgkif li.tfGBod .WyjGac { opacity: 0 !important; transition: opacity 0.15s !important; }
 .jHgkif li.tfGBod:hover .WyjGac { opacity: 1 !important; }
+/* Topic titles no longer collapse anything, so no hand cursor */
+.jHgkif .KmLLod { pointer-events: none !important; cursor: default !important; }

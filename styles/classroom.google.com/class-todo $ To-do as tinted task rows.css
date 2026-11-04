@@ -62,3 +62,5 @@ li.MHxtic { min-height: 72px !important; }
 li.MHxtic a.nUg0Te { min-height: 72px !important; }
 /* No tick ring: Classroom can't check tasks off from here */
 li.MHxtic .mh4Cme { display: none !important; }
+/* Column titles no longer collapse anything, so no hand cursor */
+.ovsVve.jlxRme > div:first-child { pointer-events: none !important; cursor: default !important; }
