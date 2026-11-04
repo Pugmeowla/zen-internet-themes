@@ -1,4 +1,4 @@
-/* Closed sidebar: 46px circles that fill each button, own hue per class, white ring + left bar on the active item */
+/* Closed sidebar: 46px circles that fill each button, own hue per class, white ring on the active class */
 nav.STek2d a.uTwgne { position: relative !important; overflow: visible !important; }
 nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .NsMoi { border-radius: 50% !important; overflow: hidden !important; }
 nav.STek2d a.uTwgne[href*="/c/"] .JShLh {
@@ -12,11 +12,6 @@ nav.STek2d a.uTwgne .wQiG5d { background: #fff !important; box-shadow: 0 2px 8px
 /* Active class: white ring */
 nav.STek2d a.uTwgne[href*="/c/"][aria-current="page"] .JShLh { box-shadow: 0 0 0 3px #fff, 0 2px 8px #0000001f !important; }
 nav.STek2d a.uTwgne[href*="/c/"] .wQiG5d { background: none !important; box-shadow: none !important; }
-/* Active item: black bar at the rail's left edge */
-nav.STek2d a.uTwgne[aria-current="page"]::before {
-  content: ""; position: absolute; left: -15px; top: 50%; transform: translateY(-50%);
-  width: 4px; height: 28px; border-radius: 0 4px 4px 0; background: #1d1d1f; z-index: 2;
-}
 /* Divider between To-do and the classes */
 nav.STek2d a.uTwgne[href*="/a/not-turned-in"] { margin-bottom: 21px !important; }
 nav.STek2d a.uTwgne[href*="/a/not-turned-in"]::after {
