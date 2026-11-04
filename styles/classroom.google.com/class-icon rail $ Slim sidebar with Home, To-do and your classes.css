@@ -1,0 +1,45 @@
+/* Spacer that reserves the sidebar width */
+.aBPWdf { flex-basis: 72px !important; width: 72px !important; }
+/* Content strip under the header assumes a 300px sidebar */
+.KEDCCd { width: calc(100% - 72px) !important; }
+nav.STek2d, nav.STek2d .tCcYY, nav.STek2d .rknsod {
+  width: 72px !important;
+  border-radius: 0 !important;
+}
+nav.STek2d .tCcYY { padding-bottom: 120px !important; scrollbar-width: none !important; }
+/* Only Home, To-do and enrolled classes */
+nav.STek2d a[href^="/calendar"], nav.STek2d a[href="/h/archived"], nav.STek2d a[href="/s"],
+nav.STek2d .ug8OTc, nav.STek2d hr, nav.STek2d [role="separator"] { display: none !important; }
+nav.STek2d [role="group"] { display: block !important; height: auto !important; }
+/* Square 48px icon buttons, no labels */
+nav.STek2d a.uTwgne {
+  width: 48px !important;
+  height: 48px !important;
+  margin: 4px 12px !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+}
+nav.STek2d a.uTwgne .Ij01W { display: none !important; }
+nav.STek2d a.uTwgne .kWQ5wd { margin: 0 !important; width: auto !important; }
+nav.STek2d a.uTwgne:hover { background-color: #ffffff99 !important; }
+/* Selected highlight and hover ripple: a circle filling the button */
+nav.STek2d a.uTwgne .wQiG5d, nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .NsMoi {
+  inset: 0 !important; left: 0 !important; top: 0 !important;
+  width: 48px !important; height: 48px !important;
+}
+nav.STek2d .wQiG5d { border-radius: 50% !important; background-color: #ffffffd9 !important; box-shadow: 0 1px 3px #0000001a !important; }
+nav.STek2d .JShLh { border-radius: 8px !important; }
+/* Join class (+) and account button move to the bottom of the rail */
+nav.joJglb button[aria-label="Join class"], nav.joJglb button[aria-label="Create or join a class"] {
+  position: fixed !important;
+  left: 16px !important;
+  bottom: 72px !important;
+  z-index: 200 !important;
+}
+nav.joJglb a.gb_C[href*="accounts.google.com"] {
+  position: fixed !important;
+  left: 16px !important;
+  bottom: 20px !important;
+  z-index: 200 !important;
+}

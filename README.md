@@ -26,4 +26,4 @@ Local build: `python3 build.py`.
 
 ## Themes
 
-- **classroom.google.com**: light frosted glass, icon-only sidebar that expands on hover, centred pill tabs, pastel class cards and stream header, glass topic cards in Classwork, SF Pro font, blue accent.
+- **classroom.google.com**: light frosted glass; slim icon rail (Home, To-do, classes, + and account at the bottom); class cards tinted like dashboard modules; no Due soon box, menu button, Google apps or help button; centred pill tabs; pastel stream header; glass Classwork topics; SF Pro, blue accent.
