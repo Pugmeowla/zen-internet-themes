@@ -19,7 +19,7 @@
 /* Items: icon square, title, hairline between rows */
 .jHgkif ol.Xzp3fc { margin: 0 !important; padding: 0 !important; }
 .jHgkif li.tfGBod { border: none !important; border-radius: 12px !important; margin: 0 !important; }
-.jHgkif li.tfGBod + li.tfGBod { box-shadow: inset 0 1px 0 #0000000f !important; }
+.jHgkif li.tfGBod, .jHgkif li.tfGBod * { box-shadow: none !important; border-top: none !important; border-bottom: none !important; }
 .jHgkif li.tfGBod:hover { background: #ffffff99 !important; }
 .jHgkif li.tfGBod .jWCzBe { min-height: 64px !important; align-items: center !important; padding: 0 8px !important; }
 .jHgkif li.tfGBod .D3ZbAb { width: 44px !important; min-width: 44px !important; margin-right: 14px !important; display: flex !important; align-items: center !important; }
