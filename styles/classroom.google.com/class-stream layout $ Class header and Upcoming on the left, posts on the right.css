@@ -129,3 +129,6 @@ main.Sgw65b section > div > .qhnNic { height: 100% !important; box-sizing: borde
 main.Sgw65b section > div { grid-auto-flow: row dense !important; align-items: start !important; }
 main.Sgw65b section > div > .qhnNic { height: auto !important; }
 main.Sgw65b section > div > .qhnNic:has(.n8F6Jd) { grid-row: span 2 !important; }
+/* One column of posts, newest at the top */
+main.Sgw65b section > div { grid-template-columns: minmax(0, 1fr) !important; grid-auto-flow: row !important; }
+main.Sgw65b section > div > .qhnNic:has(.n8F6Jd) { grid-row: auto !important; }
