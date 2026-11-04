@@ -7,13 +7,13 @@ nav.STek2d a.uTwgne, li.gHz6xd, li.MHxtic {
 }
 /* Rail: tinted circle with the label inside */
 nav.STek2d a.uTwgne .JShLh {
-  width: 32px !important; height: 32px !important;
+  width: 24px !important; height: 24px !important;
   display: flex !important; align-items: center !important; justify-content: center !important;
   font-size: 0 !important; line-height: 1 !important;
   background: color-mix(in srgb, var(--subj, #d1d1d6) 70%, var(--zi-bg)) !important;
   border-radius: 50% !important;
 }
-nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 10px; font-weight: 700; color: var(--ink); }
+nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 8.5px; font-weight: 700; color: var(--ink); }
 /* Home tiles */
 li.gHz6xd { background: var(--paint) !important; border: none !important; box-shadow: none !important; backdrop-filter: none !important; }
 li.gHz6xd .Tc9hUd .O7utsb, li.gHz6xd .Tc9hUd .ZizeYd, li.gHz6xd .Tc9hUd .OjOEXb { display: none !important; }
@@ -32,8 +32,8 @@ li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc::after { content: 
 li.MHxtic:has(a[href*="/c/ODQyMDkxMzM2Mjk5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 1 · Grade"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"], li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]), li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) { --subj: #ffa9a6; --lbl: "X2"; }
 li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 2\A Grade"; font-size: 20px; white-space: pre-line; }
-li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 2 · Grade"; font-size: 12px; }
+li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 2"; font-size: 20px; white-space: pre-line; }
+li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 2"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"], li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]), li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) { --subj: #fefb99; --lbl: "EN"; }
 li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
 li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc::after { content: "English Advanced"; font-size: 20px; white-space: pre-line; }
@@ -72,7 +72,7 @@ html:has(nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"][aria-current="page"]) 
 html:has(nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Mathematics Extension 1 · Grade"; font-size: 28px; font-weight: 700; }
 html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) { --page-subj: #ffa9a6; }
 html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
-html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Mathematics Extension 2 · Grade"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Mathematics Extension 2"; font-size: 28px; font-weight: 700; }
 html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"][aria-current="page"]) { --page-subj: #fefb99; }
 html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
 html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "English Advanced"; font-size: 28px; font-weight: 700; }

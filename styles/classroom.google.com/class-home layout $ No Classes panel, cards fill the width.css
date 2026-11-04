@@ -40,3 +40,5 @@ main.T9UoTd > .MLPUnb { height: 0 !important; margin: 0 0 8px !important; }
 /* 16px from the rail, the top and the right; 16px between tiles */
 .NgX0Ud:has(ol.JwPp0e) { padding: 0 !important; }
 main.T9UoTd:has(ol.JwPp0e) { box-sizing: border-box !important; width: 100% !important; margin: 0 !important; padding: 0 16px 16px 0 !important; }
+/* Hide the section line under tile titles ("2026 Mrs Blamires", "Admin - 2026", "11MAX2A7, 11MAX2B9") */
+li.gHz6xd .R4EiSb h2 .FWGURc { display: none !important; }
