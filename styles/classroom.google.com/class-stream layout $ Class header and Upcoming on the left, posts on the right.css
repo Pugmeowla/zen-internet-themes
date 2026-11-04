@@ -78,3 +78,14 @@ main.Sgw65b section .qhnNic .n8F6Jd { padding: 0 24px 16px !important; }
 main.Sgw65b section .qhnNic .n8F6Jd, main.Sgw65b section .qhnNic .n8F6Jd * { font-size: 14.5px !important; line-height: 1.5 !important; color: #3a3a3c !important; }
 main.Sgw65b section .qhnNic .s2g3Xd { border-top: 1px solid #0000000f !important; }
 main.Sgw65b section .qhnNic .s2g3Xd button { margin: 8px 0 8px 8px !important; }
+/* Top row: class header, New announcement, Upcoming. Below: posts in columns, like Classwork */
+.dbEQNc:has(.qyN25) { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; grid-template-rows: auto auto !important; row-gap: 16px !important; column-gap: 16px !important; }
+.dbEQNc:has(.qyN25) > .v9TZ3c { grid-column: 1 !important; grid-row: 1 !important; align-self: stretch !important; }
+.dbEQNc:has(.qyN25) > .v9TZ3c, .dbEQNc:has(.qyN25) > .v9TZ3c .qyN25 { height: 100% !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf { grid-column: 2 !important; grid-row: 1 !important; align-self: center !important; }
+.dbEQNc:has(.qyN25) aside.DXLeqd { grid-column: 3 !important; grid-row: 1 !important; align-self: stretch !important; }
+.dbEQNc:has(.qyN25) aside.DXLeqd, .dbEQNc:has(.qyN25) aside .CG2qQ, .dbEQNc:has(.qyN25) aside .iy4mWc, .dbEQNc:has(.qyN25) aside .d4Fe0d { height: 100% !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > :not(.S1rfaf) { grid-column: 1 / -1 !important; grid-row: 2 !important; }
+main.Sgw65b section > div { column-width: 380px !important; column-gap: 16px !important; }
+main.Sgw65b section > div > * { break-inside: avoid !important; }
+main.Sgw65b section .qhnNic { display: block !important; width: 100% !important; }

@@ -6,3 +6,5 @@ html, body, nav.joJglb, .tCcYY, .rknsod, .T4LgNb, .kFwPee, .KEDCCd, main {
 }
 /* SVG corner piece between sidebar and content (shows as a stray triangle) */
 .lATaOd { display: none !important; }
+/* Focus ring Classroom draws on list items after a click (3px blue bars). shortcut: also hides it for keyboard focus; remove this rule if you navigate by keyboard */
+.dNKuRb.IQKMse { display: none !important; }
