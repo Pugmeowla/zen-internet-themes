@@ -36,3 +36,8 @@
 .jHgkif li.tfGBod:hover .WyjGac { opacity: 1 !important; }
 /* Topic titles no longer collapse anything, so no hand cursor */
 .jHgkif .KmLLod { pointer-events: none !important; cursor: default !important; }
+/* One hover highlight: Classroom's own square grey layer is cleared, the row clips to its rounded shape */
+.jHgkif li.tfGBod { overflow: hidden !important; }
+.jHgkif li.tfGBod .jWCzBe, .jHgkif li.tfGBod .SFCE1b, .jHgkif li.tfGBod .xVnXCf,
+.jHgkif li.tfGBod .jWCzBe::before, .jHgkif li.tfGBod .jWCzBe::after,
+.jHgkif li.tfGBod .SFCE1b::before, .jHgkif li.tfGBod .SFCE1b::after { background: transparent !important; border: none !important; }
