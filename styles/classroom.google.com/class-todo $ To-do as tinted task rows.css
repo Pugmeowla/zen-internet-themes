@@ -60,3 +60,5 @@ li.MHxtic .dNKuRb { display: none !important; }
 li.MHxtic .mh4Cme { align-self: center !important; }
 li.MHxtic { min-height: 72px !important; }
 li.MHxtic a.nUg0Te { min-height: 72px !important; }
+/* No tick ring: Classroom can't check tasks off from here */
+li.MHxtic .mh4Cme { display: none !important; }

@@ -24,8 +24,8 @@ li.MHxtic { background: var(--paint) !important; }
 li.MHxtic .y9bEQb p.VjRxGc { color: var(--ink) !important; }
 nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"], li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]), li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) { --subj: #ffa9a6; --lbl: "X1"; }
 li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1\A Class"; font-size: 20px; white-space: pre-line; }
-li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 1 · Class"; font-size: 12px; }
+li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1"; font-size: 20px; white-space: pre-line; }
+li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 1"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"], li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]), li.MHxtic:has(a[href*="/c/ODQyMDkxMzM2Mjk5/"]) { --subj: #ffa9a6; --lbl: "X1"; }
 li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODQyMDkxMzM2Mjk5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
 li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1\A Grade"; font-size: 20px; white-space: pre-line; }
@@ -36,24 +36,24 @@ li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc::after { content: 
 li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 2 · Grade"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"], li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]), li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) { --subj: #fefb99; --lbl: "EN"; }
 li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc::after { content: "English Advanced\A Class"; font-size: 20px; white-space: pre-line; }
-li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "English Advanced · Class"; font-size: 12px; }
+li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc::after { content: "English Advanced"; font-size: 20px; white-space: pre-line; }
+li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "English Advanced"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"], li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]), li.MHxtic:has(a[href*="/c/NzkzNTQ2OTYxOTIw/"]) { --subj: #fefb99; --lbl: "EN"; }
 li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/NzkzNTQ2OTYxOTIw/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
 li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) .R4EiSb .ScpeUc::after { content: "English Advanced\A Grade"; font-size: 20px; white-space: pre-line; }
 li.MHxtic:has(a[href*="/c/NzkzNTQ2OTYxOTIw/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "English Advanced · Grade"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"], li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]), li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) { --subj: #a4feff; --lbl: "PH"; }
 li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc::after { content: "Physics\A Class"; font-size: 20px; white-space: pre-line; }
-li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Physics · Class"; font-size: 12px; }
+li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc::after { content: "Physics"; font-size: 20px; white-space: pre-line; }
+li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Physics"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"], li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]), li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) { --subj: #a4feff; --lbl: "CH"; }
 li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc::after { content: "Chemistry\A Class"; font-size: 20px; white-space: pre-line; }
-li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Chemistry · Class"; font-size: 12px; }
+li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc::after { content: "Chemistry"; font-size: 20px; white-space: pre-line; }
+li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Chemistry"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"], li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]), li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) { --subj: #ffd5f4; --lbl: "ES"; }
 li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc::after { content: "Engineering Studies\A Class"; font-size: 20px; white-space: pre-line; }
-li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Engineering Studies · Class"; font-size: 12px; }
+li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc::after { content: "Engineering Studies"; font-size: 20px; white-space: pre-line; }
+li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Engineering Studies"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/NDI5OTYwNzc5Mjc3"], li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]), li.MHxtic:has(a[href*="/c/NDI5OTYwNzc5Mjc3/"]) { --subj: #d1d1d6; --lbl: "GC"; }
 li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/NDI5OTYwNzc5Mjc3/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
 li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) .R4EiSb .ScpeUc::after { content: "Grade Classroom"; font-size: 20px; }
