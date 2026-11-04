@@ -132,3 +132,5 @@ main.Sgw65b section > div > .qhnNic:has(.n8F6Jd) { grid-row: span 2 !important; 
 /* One column of posts, newest at the top */
 main.Sgw65b section > div { grid-template-columns: minmax(0, 1fr) !important; grid-auto-flow: row !important; }
 main.Sgw65b section > div > .qhnNic:has(.n8F6Jd) { grid-row: auto !important; }
+/* Grid gap does the spacing; drop the cards' old bottom margin so every gap is 16px */
+main.Sgw65b section > div > .qhnNic { margin: 0 !important; }
