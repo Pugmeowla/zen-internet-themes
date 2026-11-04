@@ -63,3 +63,35 @@ li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[h
 li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) .R4EiSb .ScpeUc::after { content: "Careers"; font-size: 20px; }
 li.MHxtic:has(a[href*="/c/NzM3MTkyNDY1MTE3/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Careers"; font-size: 12px; }
 nav.STek2d a.uTwgne[href*="/c/ODI4NzM5OTE4MDAz"], li.gHz6xd:has(a[href*="/c/ODI4NzM5OTE4MDAz"]), li.MHxtic:has(a[href*="/c/ODI4NzM5OTE4MDAz/"]) { --subj: #d1d1d6; --lbl: "BA"; }
+/* Class pages: colour and subject title picked up from the selected rail item */
+html:has(nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"][aria-current="page"]) { --page-subj: #ffa9a6; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Mathematics Extension 1"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"][aria-current="page"]) { --page-subj: #ffa9a6; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Mathematics Extension 1 · Grade"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) { --page-subj: #ffa9a6; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Mathematics Extension 2 · Grade"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"][aria-current="page"]) { --page-subj: #fefb99; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "English Advanced"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"][aria-current="page"]) { --page-subj: #fefb99; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "English Advanced · Grade"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"][aria-current="page"]) { --page-subj: #a4feff; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Physics"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"][aria-current="page"]) { --page-subj: #a4feff; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Chemistry"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"][aria-current="page"]) { --page-subj: #ffd5f4; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Engineering Studies"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NDI5OTYwNzc5Mjc3"][aria-current="page"]) { --page-subj: #d1d1d6; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NDI5OTYwNzc5Mjc3"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NDI5OTYwNzc5Mjc3"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Grade Classroom"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NzM3MTkyNDY1MTE3"][aria-current="page"]) { --page-subj: #d1d1d6; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NzM3MTkyNDY1MTE3"][aria-current="page"]) .qyN25 .T4tcpe h1 { font-size: 0 !important; }
+html:has(nav.STek2d a.uTwgne[href*="/c/NzM3MTkyNDY1MTE3"][aria-current="page"]) .qyN25 .T4tcpe h1::after { content: "Careers"; font-size: 28px; font-weight: 700; }
+html:has(nav.STek2d a.uTwgne[href*="/c/ODI4NzM5OTE4MDAz"][aria-current="page"]) { --page-subj: #d1d1d6; }

@@ -1,0 +1,62 @@
+/* Stream: header card above Upcoming in a left column, posts in a wide right column */
+.dbEQNc:has(.qyN25) {
+  display: grid !important;
+  grid-template-columns: 300px minmax(0, 1fr) !important;
+  grid-auto-rows: auto !important;
+  column-gap: 24px !important; row-gap: 16px !important;
+  align-items: start !important;
+  width: auto !important; max-width: 1240px !important;
+  margin: 0 auto !important; padding: 16px 24px 32px !important; box-sizing: border-box !important;
+}
+.dbEQNc:has(.qyN25) > .M7zXZd { display: contents !important; }
+.dbEQNc:has(.qyN25) > :not(.v9TZ3c):not(.M7zXZd) { grid-column: 1 / -1 !important; }
+.dbEQNc:has(.qyN25) > .v9TZ3c { grid-column: 1 !important; grid-row: 1 !important; width: auto !important; margin: 0 !important; }
+.dbEQNc:has(.qyN25) aside.DXLeqd { grid-column: 1 !important; grid-row: 2 !important; width: auto !important; margin: 0 !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b { grid-column: 2 !important; grid-row: 1 / span 3 !important; width: auto !important; margin: 0 !important; padding: 0 !important; }
+
+/* Header card, tinted in the class colour */
+.qyN25 { height: auto !important; min-height: 0 !important; }
+.qyN25 .PFLqgc {
+  position: absolute !important; inset: 0 !important; width: auto !important; height: auto !important;
+  background: color-mix(in srgb, var(--page-subj, #a5d5ff) 60%, #fbfbfd) !important;
+  border: 1px solid #ffffffb3 !important; border-radius: 18px !important; backdrop-filter: none !important;
+}
+.qyN25 .T4tcpe {
+  position: relative !important; height: auto !important; width: auto !important;
+  padding: 22px 24px 24px !important; flex-direction: column !important; align-items: flex-start !important; gap: 4px !important;
+}
+.qyN25 .T4tcpe h1, .qyN25 .T4tcpe h1 * { margin: 0 !important; font-size: 28px !important; font-weight: 700 !important; letter-spacing: -0.02em !important; line-height: 1.15 !important; white-space: normal !important; color: #1d1d1f !important; }
+.qyN25 .T4tcpe .Ea4RVb, .qyN25 .T4tcpe .Ea4RVb * { margin: 0 !important; font-size: 15px !important; color: #6e6e73 !important; }
+.qyN25 .VKARh, .qyN25 .jBrZ6e { top: 14px !important; right: 14px !important; bottom: auto !important; left: auto !important; }
+
+/* Left-column cards: white glass, small-caps titles */
+.dbEQNc:has(.qyN25) aside .iy4mWc { padding: 0 !important; margin: 0 !important; }
+.dbEQNc:has(.qyN25) aside .d4Fe0d {
+  width: auto !important; margin: 0 !important; padding: 20px 22px !important; box-sizing: border-box !important;
+  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+}
+.dbEQNc:has(.qyN25) aside .d4Fe0d h2 {
+  font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important;
+  color: #6e6e73 !important; margin: 0 0 8px !important; height: auto !important;
+}
+
+/* Composer bar and posts */
+main.Sgw65b .S1rfaf {
+  height: auto !important; margin: 0 0 16px !important; padding: 14px 20px !important;
+  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+}
+main.Sgw65b section .qhnNic {
+  margin: 0 0 16px !important; background: #ffffffa6 !important;
+  border: 1px solid #ffffffb3 !important; border-radius: 18px !important; box-shadow: 0 1px 2px #0000000a !important;
+}
+main.Sgw65b section .qhnNic .JZicYb { min-height: 72px !important; padding: 16px 20px !important; align-items: center !important; gap: 14px !important; }
+main.Sgw65b section .qhnNic .Cxyznd {
+  width: 44px !important; height: 44px !important; min-width: 44px !important; margin: 0 !important; border-radius: 12px !important;
+  background: color-mix(in srgb, var(--page-subj, #a5d5ff) 70%, #fbfbfd) !important;
+}
+main.Sgw65b section .qhnNic .Cxyznd i { color: color-mix(in srgb, var(--page-subj, #a5d5ff) 35%, #1d1d1f) !important; }
+main.Sgw65b section .qhnNic .GQW44b { flex: 1 !important; min-width: 0 !important; }
+main.Sgw65b section .qhnNic .QUEiXc span.VjRxGc { font-size: 15.5px !important; font-weight: 600 !important; color: #1d1d1f !important; white-space: normal !important; }
+main.Sgw65b section .qhnNic .JZk9qf { font-size: 13px !important; color: #6e6e73 !important; }
+main.Sgw65b section .qhnNic .LBx0ze { display: none !important; }
+main.Sgw65b section .qhnNic .GQW44b, main.Sgw65b section .qhnNic .QUEiXc, main.Sgw65b section .qhnNic .QUEiXc > div { width: auto !important; max-width: none !important; }
