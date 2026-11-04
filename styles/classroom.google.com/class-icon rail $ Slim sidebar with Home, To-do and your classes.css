@@ -6,7 +6,7 @@ nav.STek2d, nav.STek2d .tCcYY, nav.STek2d .rknsod {
   width: 72px !important;
   border-radius: 0 !important;
 }
-nav.STek2d .tCcYY { padding-bottom: 120px !important; scrollbar-width: none !important; }
+nav.STek2d .tCcYY { padding-bottom: 24px !important; scrollbar-width: none !important; }
 /* Only Home, To-do and enrolled classes */
 nav.STek2d a[href^="/calendar"], nav.STek2d a[href="/h/archived"], nav.STek2d a[href="/s"],
 nav.STek2d .ug8OTc, nav.STek2d hr, nav.STek2d [role="separator"] { display: none !important; }
@@ -30,16 +30,6 @@ nav.STek2d a.uTwgne .wQiG5d, nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .N
 }
 nav.STek2d .wQiG5d { border-radius: 50% !important; background-color: #ffffffd9 !important; box-shadow: 0 1px 3px #0000001a !important; }
 nav.STek2d .JShLh { border-radius: 8px !important; }
-/* Join class (+) and account button move to the bottom of the rail */
-nav.joJglb button[aria-label="Join class"], nav.joJglb button[aria-label="Create or join a class"] {
-  position: fixed !important;
-  left: 16px !important;
-  bottom: 72px !important;
-  z-index: 200 !important;
-}
-nav.joJglb a.gb_C[href*="accounts.google.com"] {
-  position: fixed !important;
-  left: 16px !important;
-  bottom: 20px !important;
-  z-index: 200 !important;
-}
+/* Join class (+), "Add class" and the account button are hidden */
+button[aria-label="Join class"], button[aria-label="Create or join a class"],
+nav.joJglb a.gb_C[href*="accounts.google.com"] { display: none !important; }
