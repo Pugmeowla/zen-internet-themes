@@ -1,0 +1,25 @@
+/* To-do: sections as plain headings, each task a tinted row like the dashboard tasks */
+.ovsVve.jlxRme:not(.PM0jOb) { margin-bottom: 20px !important; }
+.ovsVve.jlxRme .NT3Ibe h2 { font-size: 13px !important; font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.04em !important; color: #6e6e73 !important; }
+.ovsVve.jlxRme ol { display: grid !important; gap: 8px !important; padding: 8px 0 0 !important; }
+li.MHxtic {
+  min-height: 60px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  transition: filter 0.15s ease !important;
+}
+li.MHxtic:hover { filter: brightness(0.97) !important; }
+li.MHxtic a.nUg0Te { min-height: 60px !important; padding: 8px 12px !important; }
+/* Class icon becomes the ring tick */
+li.MHxtic .mh4Cme {
+  width: 22px !important; height: 22px !important; min-width: 22px !important;
+  background: none !important;
+  border-radius: 50% !important;
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--subj, #d1d1d6) 70%, #1d1d1f) !important;
+}
+li.MHxtic .mh4Cme i { display: none !important; }
+li.MHxtic .y9bEQb p.VjRxGc { font-size: 14px !important; font-weight: 600 !important; }
+li.MHxtic .y9bEQb p.tWeh6 { font-size: 12px !important; color: #6e6e73 !important; }
+/* Divider lines between rows */
+li.MHxtic .dNKuRb, li.MHxtic::before, li.MHxtic::after { display: none !important; }

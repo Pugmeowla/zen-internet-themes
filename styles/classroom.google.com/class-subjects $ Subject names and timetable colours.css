@@ -1,39 +1,65 @@
-/* Subject names and timetable colours per class. Add a class: copy a block, change the id in its /c/<id> link. */
-/* Rail: coloured circle with a short label instead of the letter */
-nav.STek2d a.uTwgne .JShLh { width: 32px !important; height: 32px !important; display: grid !important; place-items: center !important; font-size: 0 !important; background: var(--subj, #e5e5ea) !important; color: #1d1d1f !important; border-radius: 50% !important; }
-nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 11px; font-weight: 700; letter-spacing: 0; }
-/* Home cards: tinted with the subject colour, subject as the title */
-li.gHz6xd { background-color: var(--subj, #e5e5ea) !important; }
-li.gHz6xd .Tc9hUd .O7utsb, li.gHz6xd .Tc9hUd .ZizeYd { display: none !important; }
-li.gHz6xd .Tc9hUd .OjOEXb { display: none !important; }
-nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"], li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) { --subj: #ffa9a6; --lbl: "X1"; }
-li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"], li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) { --subj: #ffa9a6; --lbl: "X1"; }
-li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"], li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) { --subj: #ffa9a6; --lbl: "X2"; }
-li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 2"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"], li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) { --subj: #fefb99; --lbl: "EN"; }
-li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc::after { content: "English Advanced"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"], li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) { --subj: #fefb99; --lbl: "EN"; }
-li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) .R4EiSb .ScpeUc::after { content: "English Advanced"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"], li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) { --subj: #a4feff; --lbl: "PH"; }
-li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc::after { content: "Physics"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"], li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) { --subj: #a4feff; --lbl: "CH"; }
-li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc::after { content: "Chemistry"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"], li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) { --subj: #ffd5f4; --lbl: "ES"; }
-li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc::after { content: "Engineering Studies"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/NDI5OTYwNzc5Mjc3"], li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) { --subj: #e5e5ea; --lbl: "GC"; }
-li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) .R4EiSb .ScpeUc::after { content: "Grade Classroom"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/NzM3MTkyNDY1MTE3"], li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) { --subj: #e5e5ea; --lbl: "CA"; }
-li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
-li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) .R4EiSb .ScpeUc::after { content: "Careers"; font-size: 18px; }
-nav.STek2d a.uTwgne[href*="/c/ODI4NzM5OTE4MDAz"], li.gHz6xd:has(a[href*="/c/ODI4NzM5OTE4MDAz"]) { --subj: #e5e5ea; --lbl: "BA"; }
+/* Subject names and timetable colours per class, matched by the class id in its /c/<id> link.
+   Tiles are tinted like the timetable: 34% colour on #fbfbfd, title in 40% colour on #1d1d1f. */
+:root { --zi-bg: #fbfbfd; --zi-fg: #1d1d1f; --zi-fg2: #6e6e73; }
+nav.STek2d a.uTwgne, li.gHz6xd, li.MHxtic {
+  --paint: color-mix(in srgb, var(--subj, #d1d1d6) 34%, var(--zi-bg));
+  --ink: color-mix(in srgb, var(--subj, #d1d1d6) 40%, var(--zi-fg));
+}
+/* Rail: tinted circle with the label inside */
+nav.STek2d a.uTwgne .JShLh {
+  width: 32px !important; height: 32px !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
+  font-size: 0 !important; line-height: 1 !important;
+  background: color-mix(in srgb, var(--subj, #d1d1d6) 70%, var(--zi-bg)) !important;
+  border-radius: 50% !important;
+}
+nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 11px; font-weight: 700; color: var(--ink); }
+/* Home tiles */
+li.gHz6xd { background: var(--paint) !important; border: none !important; box-shadow: none !important; backdrop-filter: none !important; }
+li.gHz6xd .Tc9hUd .O7utsb, li.gHz6xd .Tc9hUd .ZizeYd, li.gHz6xd .Tc9hUd .OjOEXb { display: none !important; }
+li.gHz6xd .R4EiSb .ScpeUc, li.gHz6xd .R4EiSb .ScpeUc * { color: var(--ink) !important; }
+li.gHz6xd .R4EiSb .FWGURc, li.gHz6xd .R4EiSb .FWGURc *, li.gHz6xd .R4EiSb .jJIbcc { color: var(--zi-fg2) !important; }
+/* To-do rows */
+li.MHxtic { background: var(--paint) !important; }
+li.MHxtic .y9bEQb p.VjRxGc { color: var(--ink) !important; }
+nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"], li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]), li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) { --subj: #ffa9a6; --lbl: "X1"; }
+li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1 · Class"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODI2NzUxOTY1MDc5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 1 · Class"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"], li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]), li.MHxtic:has(a[href*="/c/ODQyMDkxMzM2Mjk5/"]) { --subj: #ffa9a6; --lbl: "X1"; }
+li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODQyMDkxMzM2Mjk5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODQyMDkxMzM2Mjk5"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 1 · Grade"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODQyMDkxMzM2Mjk5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 1 · Grade"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"], li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]), li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) { --subj: #ffa9a6; --lbl: "X2"; }
+li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODkyOTQ0MzI2OTM4"]) .R4EiSb .ScpeUc::after { content: "Mathematics Extension 2 · Grade"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODkyOTQ0MzI2OTM4/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Mathematics Extension 2 · Grade"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"], li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]), li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) { --subj: #fefb99; --lbl: "EN"; }
+li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODkwNDYxOTcxOTU5"]) .R4EiSb .ScpeUc::after { content: "English Advanced · Class"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODkwNDYxOTcxOTU5/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "English Advanced · Class"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"], li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]), li.MHxtic:has(a[href*="/c/NzkzNTQ2OTYxOTIw/"]) { --subj: #fefb99; --lbl: "EN"; }
+li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/NzkzNTQ2OTYxOTIw/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/NzkzNTQ2OTYxOTIw"]) .R4EiSb .ScpeUc::after { content: "English Advanced · Grade"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/NzkzNTQ2OTYxOTIw/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "English Advanced · Grade"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"], li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]), li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) { --subj: #a4feff; --lbl: "PH"; }
+li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODkwNDU1OTA5NzEy"]) .R4EiSb .ScpeUc::after { content: "Physics · Class"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODkwNDU1OTA5NzEy/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Physics · Class"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"], li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]), li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) { --subj: #a4feff; --lbl: "CH"; }
+li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODQxODg2OTA3MDgw"]) .R4EiSb .ScpeUc::after { content: "Chemistry · Class"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODQxODg2OTA3MDgw/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Chemistry · Class"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"], li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]), li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) { --subj: #ffd5f4; --lbl: "ES"; }
+li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/ODkyMjYzMDQ1NDE1"]) .R4EiSb .ScpeUc::after { content: "Engineering Studies · Class"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/ODkyMjYzMDQ1NDE1/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Engineering Studies · Class"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/NDI5OTYwNzc5Mjc3"], li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]), li.MHxtic:has(a[href*="/c/NDI5OTYwNzc5Mjc3/"]) { --subj: #d1d1d6; --lbl: "GC"; }
+li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/NDI5OTYwNzc5Mjc3/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/NDI5OTYwNzc5Mjc3"]) .R4EiSb .ScpeUc::after { content: "Grade Classroom"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/NDI5OTYwNzc5Mjc3/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Grade Classroom"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/NzM3MTkyNDY1MTE3"], li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]), li.MHxtic:has(a[href*="/c/NzM3MTkyNDY1MTE3/"]) { --subj: #d1d1d6; --lbl: "CA"; }
+li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) .R4EiSb .ScpeUc, li.MHxtic:has(a[href*="/c/NzM3MTkyNDY1MTE3/"]) .y9bEQb p.tWeh6.YVvGBb { font-size: 0 !important; }
+li.gHz6xd:has(a[href*="/c/NzM3MTkyNDY1MTE3"]) .R4EiSb .ScpeUc::after { content: "Careers"; font-size: 20px; }
+li.MHxtic:has(a[href*="/c/NzM3MTkyNDY1MTE3/"]) .y9bEQb p.tWeh6.YVvGBb::after { content: "Careers"; font-size: 12px; }
+nav.STek2d a.uTwgne[href*="/c/ODI4NzM5OTE4MDAz"], li.gHz6xd:has(a[href*="/c/ODI4NzM5OTE4MDAz"]), li.MHxtic:has(a[href*="/c/ODI4NzM5OTE4MDAz/"]) { --subj: #d1d1d6; --lbl: "BA"; }

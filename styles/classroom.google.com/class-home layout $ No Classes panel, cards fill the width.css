@@ -14,3 +14,15 @@ ol.JwPp0e {
   gap: 16px !important;
 }
 ol.JwPp0e > li.gHz6xd { width: auto !important; margin: 0 !important; }
+/* Use the full window width, bigger tiles */
+main.T9UoTd { max-width: none !important; padding: 8px 24px 24px !important; }
+ol.JwPp0e { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important; gap: 16px !important; }
+ol.JwPp0e > li.gHz6xd { min-height: 200px !important; border-radius: 12px !important; }
+ol.JwPp0e > li.gHz6xd .R4EiSb h2 { padding: 6px 6px 0 !important; }
+ol.JwPp0e > li.gHz6xd .joT7of { padding: 0 22px 8px !important; font-size: 14px !important; }
+/* Let the subject title wrap instead of cutting off */
+li.gHz6xd .R4EiSb h2, li.gHz6xd .R4EiSb h2 a.Vu2fZd, li.gHz6xd .R4EiSb .ScpeUc {
+  width: 100% !important; max-width: none !important; height: auto !important;
+  white-space: normal !important; overflow: visible !important; text-overflow: clip !important;
+}
+li.gHz6xd .R4EiSb .ScpeUc::after { line-height: 1.25; }

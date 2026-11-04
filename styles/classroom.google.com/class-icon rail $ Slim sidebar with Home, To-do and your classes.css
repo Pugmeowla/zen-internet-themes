@@ -29,8 +29,15 @@ nav.STek2d a.uTwgne .wQiG5d, nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .N
   inset: 0 !important; left: 0 !important; top: 0 !important;
   width: 48px !important; height: 48px !important;
 }
-nav.STek2d .wQiG5d { border-radius: 50% !important; background-color: #ffffffd9 !important; box-shadow: 0 1px 3px #0000001a !important; }
+nav.STek2d .wQiG5d { border-radius: 50% !important; background-color: #ffffffd9 !important; }
 nav.STek2d .JShLh { border-radius: 8px !important; }
 /* Join class (+), "Add class" and the account button are hidden */
 button[aria-label="Join class"], button[aria-label="Create or join a class"],
 nav.joJglb a.gb_C[href*="accounts.google.com"] { display: none !important; }
+/* No drawer shadow or edge line when the mouse is over the rail */
+nav.STek2d, nav.STek2d:hover, nav.STek2d .tCcYY, nav.STek2d .rknsod, nav.STek2d .rknsod:hover {
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
