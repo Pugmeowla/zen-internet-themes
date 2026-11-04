@@ -1,0 +1,57 @@
+/* Assignment page: header + description card, class comments card, and a right column with Your work and Private comments */
+.fJ1Vac {
+  max-width: 1240px !important; margin: 0 auto !important; padding: 16px 24px 32px !important; box-sizing: border-box !important;
+  gap: 24px !important; align-items: flex-start !important;
+}
+.fJ1Vac > .EE538 { flex-direction: column !important; gap: 0 !important; flex: 1 1 auto !important; min-width: 0 !important; width: auto !important; margin: 0 !important; }
+.fJ1Vac > .EE538 > div:first-child, .fJ1Vac > .EE538 > .pOf0gc, .fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc {
+  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  box-shadow: 0 1px 2px #0000000a !important; box-sizing: border-box !important; margin: 0 !important;
+}
+.fJ1Vac > .EE538 > div:first-child { padding: 24px !important; }
+.fJ1Vac > .EE538 > div:first-child .nl5VRd { border: none !important; padding: 0 !important; margin: 0 !important; }
+/* Header: tinted icon square, big title, grey meta line under the title */
+.fJ1Vac .N5dSp { align-items: center !important; gap: 14px !important; }
+.fJ1Vac .N5dSp .qvoG3e {
+  width: 44px !important; height: 44px !important; min-width: 44px !important; margin: 0 !important; border-radius: 12px !important;
+  background: color-mix(in srgb, var(--page-subj, #a5d5ff) 70%, #fbfbfd) !important;
+}
+.fJ1Vac .N5dSp .qvoG3e i { color: color-mix(in srgb, var(--page-subj, #a5d5ff) 35%, #1d1d1f) !important; }
+.fJ1Vac .N5dSp h1, .fJ1Vac .N5dSp h1 * { font-size: 28px !important; font-weight: 700 !important; letter-spacing: -0.02em !important; line-height: 1.15 !important; color: #1d1d1f !important; margin: 0 !important; }
+.fJ1Vac .rec5Nb { padding: 2px 0 0 58px !important; margin: 0 !important; gap: 6px !important; }
+.fJ1Vac .rec5Nb, .fJ1Vac .rec5Nb * { font-size: 14px !important; color: #6e6e73 !important; }
+.fJ1Vac .nGi02b { margin: 18px 0 0 !important; padding: 0 !important; border: none !important; }
+.fJ1Vac .nGi02b, .fJ1Vac .nGi02b * { font-size: 15px !important; line-height: 1.55 !important; color: #3a3a3c !important; }
+/* Small-caps section titles */
+.fJ1Vac > .EE538 > .pOf0gc h2.lq45g span.VjRxGc, .fJ1Vac aside h2.aAxDBb {
+  font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important; color: #6e6e73 !important;
+}
+.fJ1Vac > .EE538 > .pOf0gc { padding: 16px 24px !important; }
+.fJ1Vac > .EE538 > .pOf0gc h2.lq45g { height: auto !important; margin: 0 0 8px !important; padding: 0 !important; border: none !important; }
+.fJ1Vac > .EE538 > .pOf0gc h2.lq45g .xSP5ic { display: none !important; }
+.fJ1Vac > .EE538 > .pOf0gc .PeGHgb, .fJ1Vac > .EE538 > .pOf0gc .amzDAb { border: none !important; padding: 0 !important; }
+/* Right column cards */
+.fJ1Vac aside.K2hR3c { width: 320px !important; min-width: 320px !important; display: flex !important; flex-direction: column !important; gap: 16px !important; margin: 0 !important; }
+.fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc { width: auto !important; }
+.fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc > span.MMvswb { display: none !important; }
+.fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc > div { width: 100% !important; padding: 20px 22px !important; box-sizing: border-box !important; }
+.fJ1Vac aside .Dy8Cxc { align-items: center !important; margin-bottom: 14px !important; }
+.fJ1Vac aside .n0c6Ke { padding: 3px 10px !important; border-radius: 999px !important; font-size: 12.5px !important; font-weight: 600 !important; background: #ffefd6 !important; color: #b25e00 !important; }
+.fJ1Vac aside button { border-radius: 999px !important; min-height: 44px !important; width: 100% !important; justify-content: center !important; }
+.fJ1Vac aside .PeGHgb.jbH5ac { width: auto !important; }
+.fJ1Vac > .EE538 > div:first-child { margin-bottom: 16px !important; }
+/* Private comments: small-caps title, comment button looks like an input */
+.fJ1Vac aside .PeGHgb.jbH5ac, .fJ1Vac aside .PeGHgb.jbH5ac .amzDAb { margin: 0 !important; padding: 0 !important; width: auto !important; }
+.fJ1Vac aside h2.QxGMXc { height: auto !important; margin: 0 0 12px !important; padding: 0 !important; }
+.fJ1Vac aside h2.QxGMXc .xSP5ic { display: none !important; }
+.fJ1Vac aside .PeGHgb.jbH5ac button {
+  margin: 0 !important; justify-content: flex-start !important; padding: 0 16px !important;
+  background: #ffffffcc !important; border: 1px solid #0000001a !important; color: #6e6e73 !important;
+}
+.fJ1Vac aside .PeGHgb.jbH5ac button * { color: #6e6e73 !important; }
+.fJ1Vac aside .PeGHgb.jbH5ac button .mUIrbf-kBDsod-Rtc0Jf { display: none !important; }
+.fJ1Vac aside h2.QxGMXc, .fJ1Vac aside h2.QxGMXc * {
+  font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important; color: #6e6e73 !important;
+}
+.fJ1Vac aside .PeGHgb.jbH5ac .amzDAb > span, .fJ1Vac aside .PeGHgb.jbH5ac .VfPpkd-dgl2Hf-ppHlrf-sM5MNb { display: block !important; width: 100% !important; }
+.fJ1Vac aside .PeGHgb.jbH5ac button span.mUIrbf-vQzf8d { width: auto !important; text-transform: none !important; letter-spacing: 0 !important; font-weight: 400 !important; }
