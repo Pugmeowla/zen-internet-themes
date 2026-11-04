@@ -19,5 +19,9 @@ nav.STek2d:hover {
   box-shadow: 8px 0 32px #00000026 !important;
 }
 nav.STek2d:hover .Ij01W, nav.STek2d:hover .ug8OTc > * { opacity: 1 !important; }
+/* Content strip under the header assumes a 300px sidebar */
+.KEDCCd { width: calc(100% - 72px) !important; }
+/* Class avatars as rounded squares */
+nav.STek2d .JShLh { border-radius: 8px !important; }
 /* Selected item pill */
 .wQiG5d { background-color: #ffffffcc !important; }

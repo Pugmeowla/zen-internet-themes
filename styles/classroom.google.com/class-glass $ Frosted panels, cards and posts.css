@@ -1,10 +1,36 @@
 /* Big panels, class cards, stream posts, "upcoming" box */
 .PM0jOb, li.gHz6xd, .d4Fe0d, .qhnNic {
   background-color: #ffffff8c !important;
-  backdrop-filter: blur(18px) saturate(1.6) !important;
-  border: 1px solid #ffffff99 !important;
-  box-shadow: 0 8px 24px #0000001f !important;
+  backdrop-filter: blur(28px) saturate(1.8) !important;
+  border: 1px solid #ffffffb3 !important;
+  box-shadow: 0 1px 2px #0000000d, 0 8px 24px #0000000f !important;
 }
-.PM0jOb { border-radius: 24px !important; }
-.qhnNic, .d4Fe0d { border-radius: 16px !important; }
-.qhnNic:hover { background-color: #ffffffb3 !important; }
+.PM0jOb { border-radius: 22px !important; }
+li.gHz6xd, .qhnNic, .d4Fe0d { border-radius: 18px !important; }
+.qhnNic:hover { background-color: #ffffffcc !important; }
+/* Stream header: pastel glass card instead of the photo banner */
+.qyN25 { height: 140px !important; }
+.qyN25 .PFLqgc {
+  height: 140px !important;
+  background: linear-gradient(135deg, #d6e6ffd9, #efe1ffd9) !important;
+  backdrop-filter: blur(28px) !important;
+  border: 1px solid #ffffffb3 !important;
+  border-radius: 18px !important;
+}
+.qyN25 .T4tcpe, .qyN25 .VVnuU { background: none !important; }
+.qyN25 .PFLqgc::before { display: none !important; }
+.qyN25 .T4tcpe * { color: #1d1d1f !important; }
+.qyN25 .jBrZ6e button { background: #ffffffb3 !important; }
+.qyN25 .jBrZ6e { top: 12px !important; bottom: auto !important; }
+/* Classwork: each topic is a glass card */
+.jHgkif.KSMuDe {
+  background-color: #ffffff8c !important;
+  backdrop-filter: blur(28px) saturate(1.8) !important;
+  border: 1px solid #ffffffb3 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 1px 2px #0000000d, 0 8px 24px #0000000f !important;
+  padding: 4px 16px 8px !important;
+  margin-bottom: 16px !important;
+}
+.jHgkif li.tfGBod { border: none !important; border-radius: 12px !important; }
+.jHgkif li.tfGBod:hover { background-color: #ffffffb3 !important; }

@@ -4,3 +4,5 @@ html, body, nav.joJglb, .tCcYY, .rknsod, .T4LgNb, .kFwPee, .KEDCCd, main {
   box-shadow: none !important;
   border: none !important;
 }
+/* SVG corner piece between sidebar and content (shows as a stray triangle) */
+.lATaOd { display: none !important; }

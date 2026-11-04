@@ -1,0 +1,24 @@
+.KEDCCd .WQqwid { margin: 0 auto !important; }
+.gb7Jge {
+  height: 40px !important;
+  margin-top: 4px !important;
+  padding: 4px !important;
+  align-items: center !important;
+  background: #ffffff80 !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid #ffffffb3 !important;
+  border-radius: 999px !important;
+}
+.gb7Jge a.wz2Mic {
+  height: 32px !important;
+  padding: 0 18px !important;
+  border-radius: 999px !important;
+  color: #3a3a3c !important;
+}
+.gb7Jge a.wz2Mic.GwI54b {
+  background: #fff !important;
+  color: #1d1d1f !important;
+  box-shadow: 0 1px 3px #0000001a !important;
+}
+/* Old underline indicator */
+.gb7Jge a.wz2Mic::after, .gb7Jge .dNKuRb { display: none !important; }

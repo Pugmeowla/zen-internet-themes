@@ -1,0 +1,11 @@
+body *:not(.google-symbols, .material-icons-extended, .material-symbols-outlined, .notranslate, i) {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif !important;
+  letter-spacing: -0.01em !important;
+}
+/* Primary buttons ("New announcement" etc.) */
+button.Utoz9b {
+  background: #0a84ff !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+}
+button.Utoz9b * { color: #fff !important; }
