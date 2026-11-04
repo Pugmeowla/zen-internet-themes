@@ -99,3 +99,7 @@
 .fJ1Vac aside .PeGHgb.jbH5ac, .fJ1Vac aside .Ono85c, .fJ1Vac aside .oh9CFb { padding: 0 !important; margin: 0 !important; width: auto !important; }
 .fJ1Vac aside .Ono85c .dZVZab, .fJ1Vac aside .Ono85c .wJ76ge { width: auto !important; }
 .fJ1Vac aside .oh9CFb { margin-top: 12px !important; }
+/* Cards size to their content instead of stretching to the window bottom */
+.fJ1Vac { min-height: 0 !important; align-items: flex-start !important; }
+.fJ1Vac > .EE538 > .pOf0gc, .fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc:last-child { flex: 0 0 auto !important; }
+.fJ1Vac aside.K2hR3c { align-self: flex-start !important; }
