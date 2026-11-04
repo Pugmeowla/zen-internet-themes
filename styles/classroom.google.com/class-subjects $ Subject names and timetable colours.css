@@ -7,7 +7,7 @@ nav.STek2d a.uTwgne, li.gHz6xd, li.MHxtic {
 }
 /* Rail: tinted circle with the label inside */
 nav.STek2d a.uTwgne .JShLh {
-  width: 32px !important; height: 32px !important;
+  width: 40px !important; height: 40px !important;
   display: flex !important; align-items: center !important; justify-content: center !important;
   font-size: 0 !important; line-height: 1 !important;
   background: color-mix(in srgb, var(--subj, #d1d1d6) 70%, var(--zi-bg)) !important;

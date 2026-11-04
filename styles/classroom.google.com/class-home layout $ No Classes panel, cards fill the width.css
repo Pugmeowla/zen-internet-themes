@@ -37,3 +37,6 @@ li.gHz6xd .joT7of .TQYOZc, li.gHz6xd .joT7of .TQYOZc * { margin: 0 !important; p
 main.T9UoTd { padding: 0 16px 24px !important; }
 /* Empty 8px strip + 24px margin above the tiles; replace with the rail's 16px top gap */
 main.T9UoTd > .MLPUnb { height: 0 !important; margin: 0 0 8px !important; }
+/* 16px from the rail, the top and the right; 16px between tiles */
+.NgX0Ud:has(ol.JwPp0e) { padding: 0 !important; }
+main.T9UoTd:has(ol.JwPp0e) { box-sizing: border-box !important; width: 100% !important; margin: 0 !important; padding: 0 16px 16px 0 !important; }
