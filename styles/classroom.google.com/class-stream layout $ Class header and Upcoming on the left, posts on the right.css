@@ -89,3 +89,29 @@ main.Sgw65b section .qhnNic .s2g3Xd button { margin: 8px 0 8px 8px !important; }
 main.Sgw65b section > div { column-width: 380px !important; column-gap: 16px !important; }
 main.Sgw65b section > div > * { break-inside: avoid !important; }
 main.Sgw65b section .qhnNic { display: block !important; width: 100% !important; }
+/* Mockup layout: left = class header then Upcoming; right = composer bar then posts in two columns.
+   Rows: 1 = composer, 2 = rest of header, 3 = everything else (takes the spare height) */
+.dbEQNc:has(.qyN25) {
+  grid-template-columns: 300px minmax(0, 1fr) !important;
+  grid-template-rows: auto auto 1fr !important;
+  max-width: none !important; margin: 0 !important; padding: 16px 16px 16px 0 !important;
+  column-gap: 16px !important; row-gap: 16px !important;
+}
+.dbEQNc:has(.qyN25) > .v9TZ3c { grid-column: 1 !important; grid-row: 1 / span 2 !important; align-self: start !important; }
+.dbEQNc:has(.qyN25) > .v9TZ3c, .dbEQNc:has(.qyN25) > .v9TZ3c .qyN25 { height: auto !important; }
+.dbEQNc:has(.qyN25) aside.DXLeqd { grid-column: 1 !important; grid-row: 3 !important; align-self: start !important; }
+.dbEQNc:has(.qyN25) aside.DXLeqd, .dbEQNc:has(.qyN25) aside .CG2qQ, .dbEQNc:has(.qyN25) aside .iy4mWc, .dbEQNc:has(.qyN25) aside .d4Fe0d { height: auto !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf { grid-column: 2 !important; grid-row: 1 !important; align-self: start !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > :not(.S1rfaf) { grid-column: 2 !important; grid-row: 2 / span 2 !important; }
+/* Composer: a glass bar with a prompt on the left and the button on the right */
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf {
+  display: flex !important; align-items: center !important; justify-content: space-between !important;
+  padding: 12px 12px 12px 24px !important; min-height: 64px !important; box-sizing: border-box !important;
+  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+}
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf::before { content: "Announce something to your class…"; font-size: 15px; color: #8e8e93; }
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf > div, .dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf button { width: auto !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf button { height: 40px !important; padding: 0 20px !important; }
+/* Two post columns */
+main.Sgw65b section > div { column-width: auto !important; column-count: 2 !important; column-gap: 16px !important; }
+@media (max-width: 1100px) { main.Sgw65b section > div { column-count: 1 !important; } }
