@@ -1,25 +1,54 @@
-/* To-do: sections as plain headings, each task a tinted row like the dashboard tasks */
-.ovsVve.jlxRme:not(.PM0jOb) { margin-bottom: 20px !important; }
-.ovsVve.jlxRme .NT3Ibe h2 { font-size: 13px !important; font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.04em !important; color: #6e6e73 !important; }
-.ovsVve.jlxRme ol { display: grid !important; gap: 8px !important; padding: 8px 0 0 !important; }
-li.MHxtic {
-  min-height: 60px !important;
-  border: none !important;
-  border-radius: 10px !important;
-  box-shadow: none !important;
-  transition: filter 0.15s ease !important;
+/* To-do: no class filter, every section open, sections side by side like the dashboard */
+.Z3qXvc { max-width: none !important; padding: 16px 24px !important; }
+.Z3qXvc .t4j4Wb { display: none !important; }
+.Z3qXvc .pEwOBc {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  gap: 16px !important;
+  align-items: start !important;
 }
+.ovsVve.jlxRme:not(.PM0jOb) .sjxkNc { display: block !important; }
+.ovsVve.jlxRme:not(.PM0jOb) {
+  margin: 0 !important;
+  padding: 12px !important;
+  min-height: 180px !important;
+  background: #ffffff59 !important;
+  border-radius: 12px !important;
+}
+/* Section header: name left, count right, no collapse arrow */
+.ovsVve.jlxRme > div:first-child { display: flex !important; align-items: center !important; height: 28px !important; padding: 0 4px !important; }
+.ovsVve.jlxRme > div:first-child > div:last-child { display: none !important; }
+.ovsVve.jlxRme h2 {
+  font-size: 13px !important; font-weight: 600 !important; line-height: 28px !important;
+  text-transform: uppercase !important; letter-spacing: 0.04em !important; color: #6e6e73 !important;
+  margin: 0 !important;
+}
+.ovsVve.jlxRme .I2pI { color: #6e6e73 !important; font-weight: 600 !important; }
+.ovsVve.jlxRme ol { display: grid !important; gap: 8px !important; padding: 8px 0 0 !important; margin: 0 !important; }
+/* Task rows */
+li.MHxtic { box-sizing: border-box !important; width: 100% !important; min-width: 0 !important; padding: 0 !important; margin: 0 !important; min-height: 60px !important; border: none !important; border-radius: 10px !important; box-shadow: none !important; }
 li.MHxtic:hover { filter: brightness(0.97) !important; }
-li.MHxtic a.nUg0Te { min-height: 60px !important; padding: 8px 12px !important; }
+li.MHxtic a.nUg0Te { min-height: 60px !important; padding: 8px 12px !important; display: flex !important; align-items: center !important; }
+li.MHxtic a.nUg0Te > div { width: 100% !important; align-items: center !important; gap: 10px !important; }
+li.MHxtic .il4hc { padding: 0 !important; margin: 0 !important; flex: 1 !important; min-width: 0 !important; }
 /* Class icon becomes the ring tick */
 li.MHxtic .mh4Cme {
-  width: 22px !important; height: 22px !important; min-width: 22px !important;
-  background: none !important;
-  border-radius: 50% !important;
+  width: 22px !important; height: 22px !important; min-width: 22px !important; margin: 0 !important;
+  background: none !important; border-radius: 50% !important;
   box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--subj, #d1d1d6) 70%, #1d1d1f) !important;
 }
 li.MHxtic .mh4Cme i { display: none !important; }
+li.MHxtic .y9bEQb p { margin: 0 !important; overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; }
 li.MHxtic .y9bEQb p.VjRxGc { font-size: 14px !important; font-weight: 600 !important; }
 li.MHxtic .y9bEQb p.tWeh6 { font-size: 12px !important; color: #6e6e73 !important; }
-/* Divider lines between rows */
-li.MHxtic .dNKuRb, li.MHxtic::before, li.MHxtic::after { display: none !important; }
+li.MHxtic .dNKuRb { display: none !important; }
+li.MHxtic .XQMoHb, li.MHxtic a.nUg0Te { box-sizing: border-box !important; width: 100% !important; min-width: 0 !important; }
+li.MHxtic .gmNu1d { min-width: 0 !important; }
+/* Due date goes under the title so titles get the full width */
+li.MHxtic .il4hc > .gmNu1d { flex-direction: column !important; align-items: flex-start !important; gap: 2px !important; }
+li.MHxtic .il4hc > .gmNu1d > :not(.y9bEQb), li.MHxtic .il4hc > .gmNu1d > :not(.y9bEQb) * {
+  font-size: 12px !important; font-weight: 600 !important; text-align: left !important; margin: 0 !important;
+}
+li.MHxtic .y9bEQb { width: 100% !important; }
+/* Same spacing whether Classroom thinks a section is open or closed */
+.ovsVve.jlxRme > div:first-child, .ovsVve.jlxRme .sjxkNc { margin: 0 !important; }
