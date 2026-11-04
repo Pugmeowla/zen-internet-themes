@@ -55,3 +55,47 @@
 }
 .fJ1Vac aside .PeGHgb.jbH5ac .amzDAb > span, .fJ1Vac aside .PeGHgb.jbH5ac .VfPpkd-dgl2Hf-ppHlrf-sM5MNb { display: block !important; width: 100% !important; }
 .fJ1Vac aside .PeGHgb.jbH5ac button span.mUIrbf-vQzf8d { width: auto !important; text-transform: none !important; letter-spacing: 0 !important; font-weight: 400 !important; }
+/* Full-window layout, 16px spacing like Home: both columns run to the bottom, last card in each fills the rest */
+.fJ1Vac {
+  max-width: none !important; margin: 0 !important; padding: 16px 16px 16px 0 !important;
+  min-height: calc(100vh - 48px) !important; align-items: stretch !important; gap: 16px !important;
+}
+.fJ1Vac > .EE538 > .pOf0gc { flex: 1 1 auto !important; padding: 24px !important; }
+.fJ1Vac > .EE538 > div:first-child { padding: 24px !important; margin-bottom: 16px !important; }
+.fJ1Vac aside.K2hR3c { width: 360px !important; min-width: 360px !important; align-self: stretch !important; }
+.fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc:last-child { flex: 1 1 auto !important; align-items: flex-start !important; }
+.fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc > div { padding: 24px !important; }
+.fJ1Vac aside .Dy8Cxc { margin: 0 0 16px !important; height: auto !important; }
+.fJ1Vac aside h2.QxGMXc { margin: 0 0 16px !important; }
+.fJ1Vac > .EE538 > .pOf0gc h2.lq45g { margin: 0 0 16px !important; }
+/* Description starts at the card edge, meta line sits under the title */
+.fJ1Vac .nGi02b { margin: 16px 0 0 !important; }
+.fJ1Vac { justify-content: flex-start !important; min-height: 100vh !important; box-sizing: border-box !important; }
+.fJ1Vac > .EE538 { max-width: none !important; flex: 1 1 0 !important; }
+/* Points and due date as a pill in the header's top-right corner */
+.fJ1Vac > .EE538 > div:first-child { position: relative !important; }
+.fJ1Vac .W4hhKd {
+  position: absolute !important; top: 8px !important; right: 40px !important; margin: 0 !important;
+  padding: 4px 12px !important; border-radius: 999px !important; background: #ffefd6 !important; width: auto !important;
+}
+.fJ1Vac .W4hhKd, .fJ1Vac .W4hhKd * { font-size: 13px !important; font-weight: 600 !important; color: #b25e00 !important; }
+/* Teacher's attachments get their own card with a small-caps title */
+.fJ1Vac > .EE538 > div:not(:first-child):not(.pOf0gc):has(a) {
+  background: #ffffffa6 !important; border: 1px solid #ffffffb3 !important; border-radius: 18px !important;
+  padding: 24px !important; margin: 0 0 16px !important; box-sizing: border-box !important;
+}
+.fJ1Vac > .EE538 > div:not(:first-child):not(.pOf0gc):has(a)::before {
+  content: "Attachments"; display: block; margin: 0 0 16px;
+  font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #6e6e73;
+}
+/* Comment headings ("4 class comments", "3 private comments"): small caps, no icon, no extra padding */
+.fJ1Vac h2.VYv8If, .fJ1Vac h2.WuChGe { height: auto !important; padding: 0 !important; margin: 0 0 16px !important; }
+.fJ1Vac h2.VYv8If .xSP5ic, .fJ1Vac h2.WuChGe .xSP5ic { display: none !important; }
+.fJ1Vac h2.VYv8If span.VjRxGc, .fJ1Vac h2.WuChGe span.VjRxGc {
+  font-size: 13px !important; font-weight: 600 !important; letter-spacing: 0.08em !important; text-transform: uppercase !important; color: #6e6e73 !important;
+}
+/* Right column: one 24px padding, nothing stacked */
+.fJ1Vac aside.K2hR3c > .K4vxLd-WsjYwc { padding: 0 !important; }
+.fJ1Vac aside .PeGHgb.jbH5ac, .fJ1Vac aside .Ono85c, .fJ1Vac aside .oh9CFb { padding: 0 !important; margin: 0 !important; width: auto !important; }
+.fJ1Vac aside .Ono85c .dZVZab, .fJ1Vac aside .Ono85c .wJ76ge { width: auto !important; }
+.fJ1Vac aside .oh9CFb { margin-top: 12px !important; }
