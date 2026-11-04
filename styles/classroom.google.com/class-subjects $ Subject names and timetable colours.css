@@ -5,7 +5,7 @@ nav.STek2d a.uTwgne .JShLh::after { content: var(--lbl); font-size: 11px; font-w
 /* Home cards: tinted with the subject colour, subject as the title */
 li.gHz6xd { background-color: color-mix(in srgb, var(--subj, #e5e5ea) 70%, #fff) !important; }
 li.gHz6xd .Tc9hUd .O7utsb, li.gHz6xd .Tc9hUd .ZizeYd { display: none !important; }
-li.gHz6xd .Tc9hUd .OjOEXb { opacity: 0.12 !important; }
+li.gHz6xd .Tc9hUd .OjOEXb { display: none !important; }
 nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"], li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) { --subj: #ffa9a6; --lbl: "X1"; }
 li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc { font-size: 0 !important; }
 li.gHz6xd:has(a[href*="/c/ODI2NzUxOTY1MDc5"]) .R4EiSb .ScpeUc::after { content: "Maths Extension 1"; font-size: 18px; }
