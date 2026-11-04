@@ -2,7 +2,7 @@
 .dbEQNc:has(.qyN25) {
   display: grid !important;
   grid-template-columns: 300px minmax(0, 1fr) !important;
-  grid-auto-rows: auto !important;
+  grid-template-rows: auto auto auto 1fr !important;
   column-gap: 24px !important; row-gap: 16px !important;
   align-items: start !important;
   width: auto !important; max-width: 1240px !important;
@@ -11,8 +11,18 @@
 .dbEQNc:has(.qyN25) > .M7zXZd { display: contents !important; }
 .dbEQNc:has(.qyN25) > :not(.v9TZ3c):not(.M7zXZd) { grid-column: 1 / -1 !important; }
 .dbEQNc:has(.qyN25) > .v9TZ3c { grid-column: 1 !important; grid-row: 1 !important; width: auto !important; margin: 0 !important; }
-.dbEQNc:has(.qyN25) aside.DXLeqd { grid-column: 1 !important; grid-row: 2 !important; width: auto !important; margin: 0 !important; }
-.dbEQNc:has(.qyN25) main.Sgw65b { grid-column: 2 !important; grid-row: 1 / span 3 !important; width: auto !important; margin: 0 !important; padding: 0 !important; }
+.dbEQNc:has(.qyN25) aside.DXLeqd { grid-column: 1 !important; grid-row: 3 !important; width: auto !important; margin: 0 !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b { display: contents !important; }
+/* Posts fill the right column; the spare height goes to the empty 4th row on the left */
+.dbEQNc:has(.qyN25) main.Sgw65b > :not(.S1rfaf) { grid-column: 2 !important; grid-row: 1 / -1 !important; min-width: 0 !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > :not(.S1rfaf):not(section) { display: none !important; }
+/* New announcement sits between the class header and Upcoming */
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf {
+  grid-column: 1 !important; grid-row: 2 !important;
+  margin: 0 !important; padding: 0 !important; background: none !important; border: none !important; height: auto !important;
+}
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf > div, .dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf button { width: 100% !important; }
+.dbEQNc:has(.qyN25) main.Sgw65b > .S1rfaf button { height: 44px !important; justify-content: center !important; }
 
 /* Header card, tinted in the class colour */
 .qyN25 { height: auto !important; min-height: 0 !important; }
