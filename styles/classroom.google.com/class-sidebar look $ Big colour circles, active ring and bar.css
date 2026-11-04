@@ -1,0 +1,33 @@
+/* Closed sidebar: 46px circles that fill each button, own hue per class, white ring + left bar on the active item */
+nav.STek2d a.uTwgne { position: relative !important; overflow: visible !important; }
+nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .NsMoi { border-radius: 50% !important; overflow: hidden !important; }
+nav.STek2d a.uTwgne[href*="/c/"] .JShLh {
+  width: 46px !important; height: 46px !important;
+  background: var(--rail-bg, #e2e2e6) !important; border-radius: 50% !important;
+}
+nav.STek2d a.uTwgne[href*="/c/"] .JShLh::after { font-size: 14px !important; font-weight: 700 !important; color: var(--rail-ink, #6e6e73) !important; }
+/* Home and To-do: soft white circles; the selected one is solid white */
+nav.STek2d a.uTwgne:not([href*="/c/"]) { background: #ffffff8c !important; border-radius: 50% !important; }
+nav.STek2d a.uTwgne .wQiG5d { background: #fff !important; box-shadow: 0 2px 8px #0000001a !important; }
+/* Active class: white ring */
+nav.STek2d a.uTwgne[href*="/c/"][aria-current="page"] .JShLh { box-shadow: 0 0 0 3px #fff, 0 2px 8px #0000001f !important; }
+nav.STek2d a.uTwgne[href*="/c/"] .wQiG5d { background: none !important; box-shadow: none !important; }
+/* Active item: black bar at the rail's left edge */
+nav.STek2d a.uTwgne[aria-current="page"]::before {
+  content: ""; position: absolute; left: -15px; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 28px; border-radius: 0 4px 4px 0; background: #1d1d1f; z-index: 2;
+}
+/* Divider between To-do and the classes */
+nav.STek2d a.uTwgne[href*="/a/not-turned-in"] { margin-bottom: 21px !important; }
+nav.STek2d a.uTwgne[href*="/a/not-turned-in"]::after {
+  content: ""; position: absolute; left: 9px; right: 9px; bottom: -11px; height: 1px; background: #0000001f;
+}
+nav.STek2d .tCcYY, nav.STek2d .rknsod, nav.STek2d [role="group"] { overflow-x: visible !important; }
+nav.STek2d a.uTwgne[href*="/c/ODI2NzUxOTY1MDc5"] { --rail-bg: #f6c4c0; --rail-ink: #b83227; }
+nav.STek2d a.uTwgne[href*="/c/ODQyMDkxMzM2Mjk5"] { --rail-bg: #f9d3b4; --rail-ink: #b05c17; }
+nav.STek2d a.uTwgne[href*="/c/ODkyOTQ0MzI2OTM4"] { --rail-bg: #f5c3d3; --rail-ink: #a8325c; }
+nav.STek2d a.uTwgne[href*="/c/ODkyMjYzMDQ1NDE1"] { --rail-bg: #ecd3f3; --rail-ink: #86399f; }
+nav.STek2d a.uTwgne[href*="/c/ODkwNDU1OTA5NzEy"] { --rail-bg: #c9ecfa; --rail-ink: #1b74a0; }
+nav.STek2d a.uTwgne[href*="/c/ODQxODg2OTA3MDgw"] { --rail-bg: #c6f0dc; --rail-ink: #1b7f50; }
+nav.STek2d a.uTwgne[href*="/c/ODkwNDYxOTcxOTU5"] { --rail-bg: #fbf3a6; --rail-ink: #7d6e00; }
+nav.STek2d a.uTwgne[href*="/c/NzkzNTQ2OTYxOTIw"] { --rail-bg: #e3f3b0; --rail-ink: #557310; }

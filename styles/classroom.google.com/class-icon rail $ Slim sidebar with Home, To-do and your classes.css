@@ -1,9 +1,9 @@
 /* Spacer that reserves the sidebar width */
-.aBPWdf { flex-basis: 72px !important; width: 72px !important; }
+.aBPWdf { flex-basis: 76px !important; width: 76px !important; }
 /* Content strip under the header assumes a 300px sidebar */
-.KEDCCd { width: calc(100% - 72px) !important; }
+.KEDCCd { width: calc(100% - 76px) !important; }
 nav.STek2d, nav.STek2d .tCcYY, nav.STek2d .rknsod {
-  width: 72px !important;
+  width: 76px !important;
   border-radius: 0 !important;
 }
 nav.STek2d .tCcYY { padding-bottom: 24px !important; scrollbar-width: none !important; }
@@ -41,8 +41,8 @@ nav.STek2d, nav.STek2d:hover, nav.STek2d .tCcYY, nav.STek2d .rknsod, nav.STek2d 
   background: transparent !important;
   backdrop-filter: none !important;
 }
-/* Spacing system: 16px everywhere. Rail = 16px + 40px button + 16px = 72px */
+/* Spacing system: 16px everywhere. Rail = 15px + 46px button + 15px = 76px */
 nav.STek2d .tCcYY { padding-top: 16px !important; }
-nav.STek2d a.uTwgne { width: 40px !important; height: 40px !important; margin: 0 16px 10px !important; }
-nav.STek2d a.uTwgne .wQiG5d, nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .NsMoi { width: 40px !important; height: 40px !important; }
+nav.STek2d a.uTwgne { width: 46px !important; height: 46px !important; margin: 0 15px 10px !important; }
+nav.STek2d a.uTwgne .wQiG5d, nav.STek2d a.uTwgne .pzaVke, nav.STek2d a.uTwgne .NsMoi { width: 46px !important; height: 46px !important; }
 nav.STek2d .rknsod { padding: 0 !important; }
