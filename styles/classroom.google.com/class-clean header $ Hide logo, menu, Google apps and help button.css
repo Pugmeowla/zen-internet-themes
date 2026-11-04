@@ -4,3 +4,5 @@ nav.joJglb a.gb_C[href*="about/products"] { display: none !important; }
 .N6nSod { display: none !important; }
 /* Top bar is empty now: remove it and the 65px spacers that reserve room for it */
 nav.joJglb, .J6rR1b.mhCMAe { display: none !important; }
+/* Google Calendar and Drive folder icons on the right of the class tab bar */
+.KEDCCd .YJHsie { display: none !important; }
