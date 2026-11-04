@@ -1,0 +1,16 @@
+/* Drop the white "Classes" panel, its heading and "Show hidden classes" */
+.PM0jOb:has(ol.JwPp0e) {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  padding: 0 !important;
+}
+.PM0jOb:has(ol.JwPp0e) .SYd3U, .jwH64c .GDXFIe { display: none !important; }
+/* Grid that stretches cards to fill each row */
+ol.JwPp0e {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+  gap: 16px !important;
+}
+ol.JwPp0e > li.gHz6xd { width: auto !important; margin: 0 !important; }

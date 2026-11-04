@@ -8,7 +8,7 @@ nav.STek2d, nav.STek2d .tCcYY, nav.STek2d .rknsod {
 }
 nav.STek2d .tCcYY { padding-bottom: 24px !important; scrollbar-width: none !important; }
 /* Only Home, To-do and enrolled classes */
-nav.STek2d a[href^="/calendar"], nav.STek2d a[href="/h/archived"], nav.STek2d a[href="/s"],
+nav.STek2d a[href*="/calendar"], nav.STek2d a[href*="/h/archived"], nav.STek2d a[href$="/s"],
 nav.STek2d .ug8OTc, nav.STek2d hr, nav.STek2d [role="separator"] { display: none !important; }
 nav.STek2d [role="group"] { display: block !important; height: auto !important; }
 /* Square 48px icon buttons, no labels */
@@ -19,6 +19,7 @@ nav.STek2d a.uTwgne {
   padding: 0 !important;
   justify-content: center !important;
   border-radius: 50% !important;
+  overflow: hidden !important;
 }
 nav.STek2d a.uTwgne .Ij01W { display: none !important; }
 nav.STek2d a.uTwgne .kWQ5wd { margin: 0 !important; width: auto !important; }

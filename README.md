@@ -26,4 +26,4 @@ Local build: `python3 build.py`.
 
 ## Themes
 
-- **classroom.google.com**: light frosted glass; slim icon rail (Home, To-do, classes, + and account at the bottom); class cards tinted like dashboard modules; no Due soon box, menu button, Google apps or help button; centred pill tabs; pastel stream header; glass Classwork topics; SF Pro, blue accent.
+- **classroom.google.com**: light frosted glass; slim icon rail (Home, To-do, classes as subject-coloured circles); home cards named and tinted by subject (colours from my timetable) in a full-width grid; no Classes panel, Due soon, menu, Google apps, help, Add class or account button; centred pill tabs; pastel stream header; glass Classwork topics; SF Pro, blue accent. Edit `class-subjects` to add or recolour a class.
