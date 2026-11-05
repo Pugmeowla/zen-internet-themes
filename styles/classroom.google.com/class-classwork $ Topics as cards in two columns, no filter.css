@@ -41,3 +41,22 @@
 .jHgkif li.tfGBod .jWCzBe, .jHgkif li.tfGBod .SFCE1b, .jHgkif li.tfGBod .xVnXCf,
 .jHgkif li.tfGBod .jWCzBe::before, .jHgkif li.tfGBod .jWCzBe::after,
 .jHgkif li.tfGBod .SFCE1b::before, .jHgkif li.tfGBod .SFCE1b::after { background: transparent !important; border: none !important; }
+/* "No topic" is a card like any topic */
+.pZN8H .jHgkif {
+  break-inside: avoid !important; display: block !important; width: 100% !important;
+  margin: 0 0 16px !important; padding: 8px 16px 12px !important; box-sizing: border-box !important;
+  background: #ffffffa6 !important; border: none !important; border-radius: 18px !important; box-shadow: 0 1px 2px #0000000a !important;
+}
+.jHgkif > .JBMs6 { height: 56px !important; padding: 0 8px !important; border: none !important; pointer-events: none !important; }
+.jHgkif > .JBMs6 h2 { font-size: 18px !important; font-weight: 600 !important; color: #1d1d1f !important; }
+.jHgkif > .JBMs6 .VDOfwc { display: none !important; }
+/* When there is a "No topic" card, it joins the same two columns as the topics */
+.pZN8H main div:has(> .jHgkif.UEPTBc) { column-count: 2 !important; column-gap: 16px !important; }
+.pZN8H main div:has(> .jHgkif.UEPTBc) > div:has(.FpfvHe), .pZN8H main div:has(> .jHgkif.UEPTBc) .FpfvHe { display: contents !important; }
+@media (max-width: 900px) { .pZN8H main div:has(> .jHgkif.UEPTBc) { column-count: 1 !important; } }
+/* Item title takes all spare width; date keeps only what it needs */
+.jHgkif li.tfGBod .xVnXCf { flex: 1 1 auto !important; width: auto !important; }
+.jHgkif li.tfGBod .lio3ib { flex: 1 1 auto !important; min-width: 0 !important; }
+.jHgkif li.tfGBod .xVnXCf > .nZCyt, .jHgkif li.tfGBod .xVnXCf > .wCDkmf { flex: 0 0 auto !important; width: auto !important; }
+.jHgkif li.tfGBod .xVnXCf > .nZCyt:not(:has(*:not(:empty))) { display: none !important; }
+.jHgkif li.tfGBod .xVnXCf > .wCDkmf { padding-left: 12px !important; }
