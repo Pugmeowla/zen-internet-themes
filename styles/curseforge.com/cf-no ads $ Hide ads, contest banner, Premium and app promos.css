@@ -5,5 +5,6 @@ a.download-app-button, a[class*="download-app-button"],/* Get CurseForge App */
 .maho-container, [id^="curseforge_mods_"], .actual-kokoku,  /* ad slots */
 .ads-layout > .side-container-left, .ads-layout > .side-container-right,
 [class*="side-container"]:not(.ads-layout-content) { display: none !important; }
-a.affiliate-banner { display: none !important; }             /* "Use code … Create Server" hosting promo */
+a.affiliate-banner { display: none !important; }
+section.app-download-card, .premium-card, .cf-for-studios { display: none !important; }   /* home page App, Premium and Studios promos */             /* "Use code … Create Server" hosting promo */
 .ads-layout { justify-content: center !important; }

@@ -1,0 +1,10 @@
+/* Background art removed everywhere */
+.game-header-background, img.fire-bg { display: none !important; }
+/* Home page featured carousel: no backdrop image, slide sits on frosted glass */
+.slide-item .bg-image-container img { display: none !important; }
+.slide-item .bg-image-container { background: #ffffffa6 !important; border-radius: 16px !important; }
+.home-page .page-header-container { background: none !important; }
+/* Game page (e.g. /minecraft) carousel: light fade behind the text instead of the dark one */
+.discovery-carousel-slide { border-radius: 16px !important; overflow: hidden !important; }
+.carousel-bottom-container { background: linear-gradient(to bottom, #ffffff00 0%, #ffffffe6 55%) !important; }
+.carousel-bottom-container, .carousel-bottom-container * { color: #1d1d1f !important; }

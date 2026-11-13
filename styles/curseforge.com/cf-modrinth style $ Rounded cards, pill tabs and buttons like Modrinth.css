@@ -51,7 +51,7 @@ nav.game-navbar { display: none !important; }
 .channel-tag.alpha { background: #fde4e1 !important; color: #b42318 !important; }
 .channel-tag .channel-tag-letter { color: inherit !important; font-weight: 700 !important; }
 /* "Manage Project" (shown to the owner): pill button */
-a[href*="authors.curseforge.com"] {
+.project-page a[href*="authors.curseforge.com"]:not(nav *):not([role="menu"] *) {
   border-radius: 999px !important; border: none !important; padding: 8px 18px !important;
   background: var(--cf-card) !important; display: inline-flex !important; align-items: center !important; gap: 8px !important;
 }
@@ -79,3 +79,7 @@ section.shelf .class-tag a { text-overflow: clip !important; overflow: visible !
 .channel-tag.release { --tag-bg: #dcf3e2; --tag-ink: #1b7a3a; background: none !important; }
 .channel-tag.beta { --tag-bg: #e2eefc; --tag-ink: #1f5fa8; background: none !important; }
 .channel-tag.alpha { --tag-bg: #fde4e1; --tag-ink: #b42318; background: none !important; }
+/* Tab bar sizes to its pills: 4px + 36px + 4px, pill and text centred */
+.project-tabs ul.tabs { height: auto !important; border: none !important; align-items: center !important; box-sizing: border-box !important; }
+.project-tabs ul.tabs li { display: flex !important; height: 36px !important; margin: 0 !important; }
+.project-tabs ul.tabs a { justify-content: center !important; align-items: center !important; line-height: 1 !important; }
