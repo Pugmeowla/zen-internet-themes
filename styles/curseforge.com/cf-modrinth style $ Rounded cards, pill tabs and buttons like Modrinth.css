@@ -83,3 +83,18 @@ section.shelf .class-tag a { text-overflow: clip !important; overflow: visible !
 .project-tabs ul.tabs { height: auto !important; border: none !important; align-items: center !important; box-sizing: border-box !important; }
 .project-tabs ul.tabs li { display: flex !important; height: 36px !important; margin: 0 !important; }
 .project-tabs ul.tabs a { justify-content: center !important; align-items: center !important; line-height: 1 !important; }
+/* Buttons site-wide: pills. Outlined ones had white text meant for the dark theme */
+.btn-cta, .btn-secondary, .action-button, .dropdown-select, .select-dropdown, select { border-radius: 999px !important; }
+a.download-cta, .btn-cta.btn-secondary, .btn-secondary:not(.btn-cta) {
+  color: var(--text-primary) !important; background: #ffffffb3 !important; border: 1px solid #0000001f !important;
+}
+a.download-cta svg, .btn-secondary svg { fill: currentColor !important; color: currentColor !important; }
+/* "Manage" / "Manage projects" (owner only): filled orange pill */
+a[href*="authors.curseforge.com"][class*="btn"] { background: var(--cf-orange) !important; color: #fff !important; border: none !important; border-radius: 999px !important; }
+a[href*="authors.curseforge.com"][class*="btn"] * { color: #fff !important; fill: #fff !important; }
+/* Member pages: project cards */
+.member-project-card { background: var(--cf-card) !important; border-radius: 16px !important; overflow: visible !important; }
+.member-project-card img { border-radius: 12px !important; }
+.owner-tag { border-radius: 999px !important; padding: 2px 10px !important; background: var(--cf-orange) !important; color: #fff !important; }
+.class-tag, .class-tag a { border-radius: 999px !important; }
+.class-tag { border-color: #0000001f !important; padding: 0 8px !important; }
