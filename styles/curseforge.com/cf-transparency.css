@@ -1,0 +1,9 @@
+/* Page backgrounds see-through so the Zen wallpaper shows */
+:root {
+  --color-bg: transparent !important;
+  --surface-nav: transparent !important;
+  --surface-header: transparent !important;
+  --surface-footer: transparent !important;
+  --surface-error-page: transparent !important;
+}
+html, body { background: transparent !important; }

@@ -1,0 +1,77 @@
+/* CurseForge colours everything through these variables; remapped to a light glass palette */
+:root {
+  color-scheme: light;
+  /* Surfaces: frosted white */
+  --surface-primary: #ffffff8c !important;
+  --surface-secondary: #ffffffa6 !important;
+  --surface-tertiery: #ffffffcc !important;
+  --surface-quartinery: #ffffffe6 !important;
+  --surface-project-tile: #ffffff8c !important;
+  --surface-member-card: #ffffff8c !important;
+  --surface-plan-card: #ffffff8c !important;
+  --surface-crop-container: #ffffff8c !important;
+  --surface-field: #ffffffb3 !important;
+  --surface-sub-nav-footer: #ffffffb3 !important;
+  --surface-surprise-download: #ffffff !important;
+  --surface-download-modal-close: #ffffffcc !important;
+  --surface-on-surface: #0000000a !important;
+  --surface-on-surface-hover: #00000014 !important;
+  --surface-header-button: #0000000a !important;
+  --surface-header-hover: #00000014 !important;
+  --surface-shelf-nav: #0000000a !important;
+  --surface-shelf-nav-hover: #00000014 !important;
+  --surface-popover-opener: #0000000a !important;
+  --surface-download-button-hover: #00000014 !important;
+  --surface-relations-tab-active: #00000014 !important;
+  --surface-carousel-dot: #0000002e !important;
+  --surface-toggle-knob: #b0b0b5 !important;
+  --surface-promo: #fff1ea !important;
+  --modal-overlay-background: #ffffff99 !important;
+  /* Text and icons: dark */
+  --text-primary: #1d1d1f !important;
+  --text-secondary: #6e6e73 !important;
+  --text-date: #6e6e73 !important;
+  --text-pure: #000 !important;
+  --icon-primary: #1d1d1f !important;
+  --icon-secondary: #6e6e73 !important;
+  --icon-close: #6e6e73 !important;
+  --icon-pure: #000 !important;
+  --illustration-ink: #1d1d1f !important;
+  --illustration-highlight: #ffffff !important;
+  --logo-ink: #1d1d1f !important;
+  /* Grey scale flipped */
+  --color-0: #ffffff !important;
+  --color-100: #f5f5f7 !important;
+  --color-150: #f0f0f2 !important;
+  --color-200: #e8e8ed !important;
+  --color-200-80p: #e8e8edcc !important;
+  --color-300: #d2d2d7 !important;
+  --color-400: #b0b0b5 !important;
+  --color-600: #6e6e73 !important;
+  --color-700: #48484a !important;
+  --color-800: #3a3a3c !important;
+  --color-900: #1d1d1f !important;
+  /* Borders */
+  --border-primary: #0000001a !important;
+  --border-secondary: #00000033 !important;
+  --border-tertiery: #0000001f !important;
+  --border-tile-card-hover: #00000033 !important;
+  --border-carousel-slide: #0000001a !important;
+  --border-featured-games: #00000033 !important;
+  --border-search-filters: #00000033 !important;
+  /* Status backgrounds: light tints */
+  --color-success-surface: #e6f4ea !important;
+  --color-warning-surface: #fff1e0 !important;
+  --color-error-surface: #fde8e6 !important;
+  --text-success-background: #e6f4ea !important;
+  --text-warning-background: #fff4d6 !important;
+  --text-info-background: #e3f0fb !important;
+  --text-critical-background: #fde8e6 !important;
+}
+/* Game cover art behind the project title: faded so the dark title text stays readable */
+.game-header-background {
+  opacity: 0.45 !important;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 100%) !important;
+  mask-image: linear-gradient(to bottom, #000 0%, transparent 100%) !important;
+}
+.game-header-background::before, .game-header-background::after { display: none !important; }
