@@ -56,23 +56,23 @@ nav.game-navbar { display: none !important; }
   background: var(--cf-card) !important; display: inline-flex !important; align-items: center !important; gap: 8px !important;
 }
 /* Team card and "More from" shelf */
-.project-team .btn-secondary, .project-team .btn-follow, section.shelf .view-all-btn {
+.project-team .btn-secondary, .project-team .btn-follow, .project-page section.shelf .view-all-btn {
   border-radius: 999px !important; border: none !important; background: #ffffffb3 !important; padding: 0 18px !important;
 }
 .project-team .tag { border-radius: 999px !important; padding: 2px 10px !important; }
 .project-team .author img { border-radius: 50% !important; }
-section.shelf .content { overflow: visible !important; }
-section.shelf ul.tiles-list {
+.project-page section.shelf .content { overflow: visible !important; }
+.project-page section.shelf ul.tiles-list {
   display: grid !important; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)) !important;
   gap: 16px !important; width: auto !important; transform: none !important; margin: 0 !important; padding: 0 !important;
 }
-section.shelf ul.tiles-list > li { width: auto !important; min-width: 0 !important; margin: 0 !important; border-radius: 16px !important; overflow: hidden !important; background: #ffffffb3 !important; }
-section.shelf ul.tiles-list > li img { border-radius: 12px !important; }
-section.shelf .class-tag, section.shelf .class-tag a { border-radius: 999px !important; }
-section.shelf .class-tag { border-color: #0000001f !important; padding: 0 8px !important; }
-section.shelf button[class*="slide"], section.shelf .fade { display: none !important; }
-section.shelf .class-tag { flex: 0 0 auto !important; max-width: none !important; overflow: visible !important; }
-section.shelf .class-tag a { text-overflow: clip !important; overflow: visible !important; }
+.project-page section.shelf ul.tiles-list > li { width: auto !important; min-width: 0 !important; margin: 0 !important; border-radius: 16px !important; overflow: hidden !important; background: #ffffffb3 !important; }
+.project-page section.shelf ul.tiles-list > li img { border-radius: 12px !important; }
+.project-page section.shelf .class-tag, .project-page section.shelf .class-tag a { border-radius: 999px !important; }
+.project-page section.shelf .class-tag { border-color: #0000001f !important; padding: 0 8px !important; }
+.project-page section.shelf button[class*="slide"], .project-page section.shelf .fade { display: none !important; }
+.project-page section.shelf .class-tag { flex: 0 0 auto !important; max-width: none !important; overflow: visible !important; }
+.project-page section.shelf .class-tag a { text-overflow: clip !important; overflow: visible !important; }
 /* The badge is an SVG: first path = square, last path = letter */
 .channel-tag svg path:first-child { fill: var(--tag-bg) !important; }
 .channel-tag svg path:last-child { fill: var(--tag-ink) !important; }
@@ -98,3 +98,10 @@ a[href*="authors.curseforge.com"][class*="btn"] * { color: #fff !important; fill
 .owner-tag { border-radius: 999px !important; padding: 2px 10px !important; background: var(--cf-orange) !important; color: #fff !important; }
 .class-tag, .class-tag a { border-radius: 999px !important; }
 .class-tag { border-color: #0000001f !important; padding: 0 8px !important; }
+/* Pills and tags: text centred vertically */
+.btn-cta, .btn-secondary, .action-button, .owner-tag, .class-tag, .tag, .project-tabs ul.tabs a,
+a[href*="authors.curseforge.com"][class*="btn"] {
+  display: inline-flex !important; align-items: center !important; justify-content: center !important; line-height: 1 !important;
+}
+.owner-tag { height: 22px !important; padding: 0 10px !important; box-sizing: border-box !important; }
+.class-tag { height: 22px !important; box-sizing: border-box !important; }
