@@ -66,3 +66,10 @@ section[class*="container_"][class*="themed_"] [class*="searchBar_"] { backgroun
   border-radius: 14px !important; margin: 0 8px !important;
   width: calc(100% - 16px) !important; box-sizing: border-box !important;
 }
+/* Profile pop-outs (your own and others', opened from avatars): nearly solid so the list behind doesn't show through.
+   The DM side panel (inside aside) keeps its lighter frosted look from the rule above. */
+[class*="outer_"][class*="user-profile"]:not(aside *) {
+  background: #fffffff5 !important; backdrop-filter: blur(24px) !important;
+  border: none !important; border-radius: 18px !important;
+}
+[class*="outer_"][class*="user-profile"]:not(aside *) [class*="inner_"] { background: transparent !important; }
