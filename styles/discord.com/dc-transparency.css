@@ -62,4 +62,8 @@ section[class*="title_"][class*="container_"], [class*="layer_"] section[class*=
 }
 section[class*="title_"] [class*="searchBar_"] { background: #ffffffb3 !important; border-radius: 999px !important; border: none !important; }
 /* Title bar as a rounded floating strip */
-[class*="layer_"] section[class*="title_"][class*="container_"] { border-radius: 14px !important; margin: 0 8px !important; }
+[class*="layer_"] section[class*="title_"][class*="container_"] {
+  border-radius: 14px !important; margin: 0 8px !important;
+  width: calc(100% - 16px) !important; box-sizing: border-box !important;
+  height: 40px !important; min-height: 40px !important;   /* same height as the Discord icon so their tops and bottoms line up */
+}
