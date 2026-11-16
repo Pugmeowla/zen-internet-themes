@@ -10,3 +10,5 @@ li:has(a[href="/store"]), li:has(a[href="/shop"]), li:has(a[href="/quest-home"])
 /* Top bar showing the current server/DM name: removed, the rest of the app moves up */
 [class*="base_"] > [class*="bar_"] { display: none !important; }
 [class*="base_"]:has(> [class*="bar_"]) { grid-template-rows: [top] 0px [titleBarEnd] min-content [noticeEnd] 1fr [end] !important; }
+/* Gap at the top now the bar is gone */
+[class*="base_"]:has(> [class*="bar_"]) > [class*="content_"] { padding-top: 8px !important; box-sizing: border-box !important; }

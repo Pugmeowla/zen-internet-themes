@@ -62,4 +62,4 @@ section[class*="title_"][class*="container_"], [class*="layer_"] section[class*=
 }
 section[class*="title_"] [class*="searchBar_"] { background: #ffffffb3 !important; border-radius: 999px !important; border: none !important; }
 /* Title bar as a rounded floating strip */
-[class*="layer_"] section[class*="title_"][class*="container_"] { border-radius: 14px !important; margin: 8px 8px 0 !important; }
+[class*="layer_"] section[class*="title_"][class*="container_"] { border-radius: 14px !important; margin: 0 8px !important; }
