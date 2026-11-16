@@ -56,7 +56,7 @@ aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="body_"]
 aside[class*="aside_"] [class*="outer_"][class*="user-profile"] button { border-radius: 999px !important; border: none !important; background: #ffffffb3 !important; }
 aside[class*="aside_"] [class*="outer_"][class*="user-profile"] img[class*="bannerImg"], aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="header_"] > div:first-child { border-radius: 18px 18px 0 0 !important; }
 /* Chat title bar (name, call, pins, search): light frosted strip, search as a pill */
-section[class*="title_"][class*="container_"] {
+section[class*="title_"][class*="container_"], [class*="layer_"] section[class*="title_"][class*="container_"] {
   background: #ffffff59 !important; backdrop-filter: blur(20px) !important;
   border: none !important; box-shadow: none !important;
 }
