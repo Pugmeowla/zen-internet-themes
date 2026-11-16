@@ -7,3 +7,6 @@ li:has(a[href="/store"]), li:has(a[href="/shop"]), li:has(a[href="/quest-home"])
 [class*="listItem_"]:has([data-list-item-id="guildsnav___create-join-button"]),
 [class*="listItem_"]:has([data-list-item-id="guildsnav___guild-discover-button"]),
 [class*="listItem_"]:has([data-list-item-id="guildsnav___app-download-button"]) { display: none !important; }
+/* Top bar showing the current server/DM name: removed, the rest of the app moves up */
+[class*="base_"] > [class*="bar_"] { display: none !important; }
+[class*="base_"]:has(> [class*="bar_"]) { grid-template-rows: [top] 0px [titleBarEnd] min-content [noticeEnd] 1fr [end] !important; }
