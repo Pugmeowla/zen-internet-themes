@@ -45,3 +45,13 @@ section[class*="panels_"] { background: #ffffffd9 !important; backdrop-filter: b
   background: #fffffff2 !important; backdrop-filter: blur(20px) !important;
 }
 [class*="tooltipPointer"] { border-top-color: #fffffff2 !important; }
+/* DM profile side panel: frosted rounded card instead of a white slab */
+aside[class*="aside_"] [class*="outer_"][class*="user-profile"] {
+  background: #ffffff8c !important; backdrop-filter: blur(20px) !important;
+  border-radius: 18px !important; overflow: hidden !important; border: none !important; box-shadow: none !important;
+}
+aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="banner_"]:not(svg) { background: transparent !important; }
+aside[class*="aside_"] [class*="outer_"][class*="user-profile"] * { border-color: transparent !important; }
+aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="body_"] > div { background: #ffffff80 !important; border-radius: 12px !important; }
+aside[class*="aside_"] [class*="outer_"][class*="user-profile"] button { border-radius: 999px !important; border: none !important; background: #ffffffb3 !important; }
+aside[class*="aside_"] [class*="outer_"][class*="user-profile"] img[class*="bannerImg"], aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="header_"] > div:first-child { border-radius: 18px 18px 0 0 !important; }
