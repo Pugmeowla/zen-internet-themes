@@ -56,13 +56,13 @@ aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="body_"]
 aside[class*="aside_"] [class*="outer_"][class*="user-profile"] button { border-radius: 999px !important; border: none !important; background: #ffffffb3 !important; }
 aside[class*="aside_"] [class*="outer_"][class*="user-profile"] img[class*="bannerImg"], aside[class*="aside_"] [class*="outer_"][class*="user-profile"] [class*="header_"] > div:first-child { border-radius: 18px 18px 0 0 !important; }
 /* Chat title bar (name, call, pins, search): light frosted strip, search as a pill */
-section[class*="title_"][class*="container_"], [class*="layer_"] section[class*="title_"][class*="container_"] {
+section[class*="container_"][class*="themed_"], [class*="layer_"] section[class*="container_"][class*="themed_"] {
   background: #ffffff59 !important; backdrop-filter: blur(20px) !important;
   border: none !important; box-shadow: none !important;
 }
-section[class*="title_"] [class*="searchBar_"] { background: #ffffffb3 !important; border-radius: 999px !important; border: none !important; }
+section[class*="container_"][class*="themed_"] [class*="searchBar_"] { background: #ffffffb3 !important; border-radius: 999px !important; border: none !important; }
 /* Title bar as a rounded floating strip */
-[class*="layer_"] section[class*="title_"][class*="container_"] {
+[class*="layer_"] section[class*="container_"][class*="themed_"] {
   border-radius: 14px !important; margin: 0 8px !important;
   width: calc(100% - 16px) !important; box-sizing: border-box !important;
 }
