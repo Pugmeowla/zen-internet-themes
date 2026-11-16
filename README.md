@@ -28,4 +28,4 @@ Local build: `python3 build.py`.
 
 - **classroom.google.com**: light frosted glass; slim icon rail (Home, To-do, classes as subject-coloured circles); home cards named and tinted by subject (colours from my timetable) in a full-width grid; no Classes panel, Due soon, menu, Google apps, help, Add class or account button; centred pill tabs; pastel stream header; glass Classwork topics; SF Pro, blue accent. Edit `class-subjects` to add or recolour a class.
 - **curseforge.com** (www, authors): light glass instead of the dark theme, see-through page, Modrinth-style mod page (big icon, orange pill tabs, rounded cards), no ads, contest banner, Premium, app or hosting promos.
-- **discord.com** (light theme): see-through app background, frosted panels and message box. Replaces the upstream Discord theme.
+- **discord.com** (light theme): see-through app background, frosted panels, no separator lines, no Nitro, Shop, Quests, gift or help buttons. Replaces the upstream Discord theme.

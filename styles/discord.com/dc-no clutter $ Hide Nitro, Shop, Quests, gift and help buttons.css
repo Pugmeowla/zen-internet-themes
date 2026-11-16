@@ -1,0 +1,5 @@
+/* DM sidebar links */
+li:has(> a[href="/store"]), li:has(> a[href="/shop"]), li:has(> a[href="/quest-home"]),
+li:has(a[href="/store"]), li:has(a[href="/shop"]), li:has(a[href="/quest-home"]) { display: none !important; }
+/* Gift button in the message box, Help in the top bar */
+[aria-label="Send a gift"], [aria-label="Help"] { display: none !important; }

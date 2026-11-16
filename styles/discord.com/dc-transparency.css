@@ -27,5 +27,15 @@
   --modal-footer-background: #ffffffeb !important;
 }
 html, body, #app-mount, .app-root, [class*="app_"], [class*="bg__"], [class*="layers_"], [class*="layer_"] { background: transparent !important; }
-/* Message box: frosted instead of solid white */
-[class*="channelTextArea_"], [class*="channelTextArea_"] [class*="scrollableContainer_"] { background: #ffffffb3 !important; backdrop-filter: blur(16px) !important; }
+/* Message box: no white background */
+[class*="channelTextArea_"], [class*="channelTextArea_"] [class*="scrollableContainer_"] { background: transparent !important; }
+/* No separator lines */
+:root, .theme-light, .theme-dark, .visual-refresh {
+  --border-subtle: transparent !important; --border-faint: transparent !important; --border-normal: transparent !important;
+  --border-strong: transparent !important; --app-frame-border: transparent !important; --chat-border: transparent !important;
+  --card-border-default: transparent !important; --legacy-elevation-border: transparent !important;
+}
+[class*="sidebarList_"], [class*="panels_"], [class*="chat_"], [class*="title_"], [class*="searchBar_"],
+[class*="channelTextArea_"], [class*="sidebar_"], [class*="guilds_"], [class*="container_"][class*="themed_"] { border: none !important; box-shadow: none !important; }
+/* User panel (bottom left): frosted enough that the DM list scrolling under it is hidden */
+section[class*="panels_"] { background: #ffffffd9 !important; backdrop-filter: blur(24px) !important; border-radius: 12px !important; }
