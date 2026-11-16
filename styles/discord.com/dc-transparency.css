@@ -39,3 +39,9 @@ html, body, #app-mount, .app-root, [class*="app_"], [class*="bg__"], [class*="la
 [class*="channelTextArea_"], [class*="sidebar_"], [class*="guilds_"], [class*="container_"][class*="themed_"] { border: none !important; box-shadow: none !important; }
 /* User panel (bottom left): frosted enough that the DM list scrolling under it is hidden */
 section[class*="panels_"] { background: #ffffffd9 !important; backdrop-filter: blur(24px) !important; border-radius: 12px !important; }
+/* Tooltips, menus and pop-outs: nearly solid so text over the page stays readable */
+[class*="tooltip_"]:not([class*="tooltipPointer"]), [role="tooltip"], [role="menu"], [class*="menu_"][class*="theme-"],
+[class*="popout_"], [class*="userPopout"], [class*="layer_"] [class*="container_"][class*="themed_"] {
+  background: #fffffff2 !important; backdrop-filter: blur(20px) !important;
+}
+[class*="tooltipPointer"] { border-top-color: #fffffff2 !important; }

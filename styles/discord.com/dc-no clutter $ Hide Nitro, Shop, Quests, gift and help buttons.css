@@ -3,3 +3,7 @@ li:has(> a[href="/store"]), li:has(> a[href="/shop"]), li:has(> a[href="/quest-h
 li:has(a[href="/store"]), li:has(a[href="/shop"]), li:has(a[href="/quest-home"]) { display: none !important; }
 /* Gift button in the message box, Help in the top bar */
 [aria-label="Send a gift"], [aria-label="Help"] { display: none !important; }
+/* Server rail: Add a Server, Discover, Download Apps */
+[class*="listItem_"]:has([data-list-item-id="guildsnav___create-join-button"]),
+[class*="listItem_"]:has([data-list-item-id="guildsnav___guild-discover-button"]),
+[class*="listItem_"]:has([data-list-item-id="guildsnav___app-download-button"]) { display: none !important; }
