@@ -1,0 +1,31 @@
+/* Discord (light theme): base layers see-through so the Zen wallpaper shows; surfaces become light glass.
+   A local discord.com folder replaces the upstream +discord.com theme on discord.com. */
+:root, .theme-light, .theme-dark, .visual-refresh {
+  --app-frame-background: transparent !important;
+  --home-background: transparent !important;
+  --chat-background: transparent !important;
+  --background-base-lowest: transparent !important;
+  --background-base-lower: transparent !important;
+  --background-base-low: transparent !important;
+  --bg-base-primary: transparent !important;
+  --bg-base-secondary: transparent !important;
+  --bg-base-tertiary: transparent !important;
+  --background-primary: transparent !important;
+  --background-secondary: transparent !important;
+  --background-tertiary: transparent !important;
+  --channel-background-default: transparent !important;
+  --background-surface-high: #ffffff80 !important;
+  --background-surface-higher: #ffffffa6 !important;
+  --background-surface-highest: #ffffffcc !important;
+  --bg-surface-raised: #ffffffa6 !important;
+  --bg-surface-overlay: #ffffffe6 !important;
+  --card-background-default: #ffffff80 !important;
+  --panel-bg: #ffffff80 !important;
+  --background-secondary-alt: #ffffff80 !important;
+  --input-background-default: #ffffff99 !important;
+  --modal-background: #ffffffeb !important;
+  --modal-footer-background: #ffffffeb !important;
+}
+html, body, #app-mount, .app-root, [class*="app_"], [class*="bg__"], [class*="layers_"], [class*="layer_"] { background: transparent !important; }
+/* Message box: frosted instead of solid white */
+[class*="channelTextArea_"], [class*="channelTextArea_"] [class*="scrollableContainer_"] { background: #ffffffb3 !important; backdrop-filter: blur(16px) !important; }
